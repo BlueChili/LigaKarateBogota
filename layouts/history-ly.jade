@@ -1,0 +1,12 @@
+extends base.jade
+
+block css
+	link(rel='stylesheet' href='css/articles-min.css' type='text/css')
+
+block content
+	- var currentSection = 'history'
+	
+	.article-container
+		include nav-sidebar
+		article
+			block article

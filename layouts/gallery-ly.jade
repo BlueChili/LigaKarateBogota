@@ -1,0 +1,23 @@
+doctype html
+html(lang='es')
+	head
+		meta(charset='UTF-8')
+		meta(name='viewport', content='width=device-width, initial-scale=1.0')
+		link(href='http://fonts.googleapis.com/css?family=Lato:300,400|Raleway:300' rel='stylesheet' type='text/css')
+		block title
+		//- link(rel='stylesheet' href='/css/rupture.css' type='css/stylesheet')
+		link(rel='stylesheet' href='css/main-min.css' type='text/css')
+		block css
+
+	
+	input(type='checkbox' id='nav-toggler')
+	.images-container
+		include nav-sidebar
+		label.toggle(for='nav-toggler') ☰
+		block images
+	.image-selector
+		span.icon-left-dir
+		span.icon-right-dir
+	script(src='/js/jquery-min.js')
+	block async
+		script(src='/js/gallery-min.js')
