@@ -1,8 +1,5 @@
 main = ->
-  $('.dropdown-toggle').click ->
-    $('.dropdown-menu').toggle()
-    return
-  $('.arrow-next').click ->
+  $('.icon-right-open').click ->
     currentSlide = $('.active-slide')
     nextSlide = currentSlide.next()
     currentDot = $('.active-dot')
@@ -15,7 +12,7 @@ main = ->
     currentDot.removeClass 'active-dot'
     nextDot.addClass 'active-dot'
     return
-  $('.arrow-prev').click ->
+  $('.icon-left-open').click ->
     currentSlide = $('.active-slide')
     prevSlide = currentSlide.prev()
     currentDot = $('.active-dot')
