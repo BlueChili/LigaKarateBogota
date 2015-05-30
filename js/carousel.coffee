@@ -2,28 +2,28 @@ main = ->
   $('.icon-right-open').click ->
     currentSlide = $('.active-slide')
     nextSlide = currentSlide.next()
-    currentDot = $('.active-dot')
-    nextDot = currentDot.next()
+    # currentDot = $('.active-dot')
+    # nextDot = currentDot.next()
     if nextSlide.length == 0
       nextSlide = $('.slide').first()
-      nextDot = $('.dot').first()
+      # nextDot = $('.dot').first()
     currentSlide.fadeOut(600).removeClass 'active-slide'
     nextSlide.fadeIn(600).addClass 'active-slide'
-    currentDot.removeClass 'active-dot'
-    nextDot.addClass 'active-dot'
+    # currentDot.removeClass 'active-dot'
+    # nextDot.addClass 'active-dot'
     return
   $('.icon-left-open').click ->
     currentSlide = $('.active-slide')
     prevSlide = currentSlide.prev()
-    currentDot = $('.active-dot')
-    prevDot = currentDot.prev()
+    # currentDot = $('.active-dot')
+    # prevDot = currentDot.prev()
     if prevSlide.length == 0
       prevSlide = $('.slide').last()
-      prevDot = $('.dot').last()
+      # prevDot = $('.dot').last()
     currentSlide.fadeOut(600).removeClass 'active-slide'
     prevSlide.fadeIn(600).addClass 'active-slide'
-    currentDot.removeClass 'active-dot'
-    prevDot.addClass 'active-dot'
+    # currentDot.removeClass 'active-dot'
+    # prevDot.addClass 'active-dot'
     return
   return
 

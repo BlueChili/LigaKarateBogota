@@ -16,8 +16,9 @@ html(lang='es')
 		label.toggle(for='nav-toggler') ☰
 		block images
 	.image-selector
-		span.icon-left-dir
-		span.icon-right-dir
+		.icon-left-dir
+		.icon-right-dir
 	script(src='/js/jquery-min.js')
 	block async
-		script(src='/js/gallery-min.js')
+		script
+			include ../build/js/gallery-min.js
