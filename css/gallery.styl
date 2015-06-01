@@ -1,43 +1,46 @@
 body
 	background #1E2028
-	
+
 .images-container
 	display flex
 	flex-flow row
 	justify-content center
 	align-items center
 	height 100%
-
-.images-container
 	img
 		width 100%
+		height auto
 	.gal-img
 		display none
 	.current-img
 		display block
 
-.image-selector
+.icon-left-open, .icon-right-open
+	display block
 	position fixed
-	bottom 40px
-	left calc(50% - 78px)
-	font-size 4rem
 	color rgba(60,60,60, 0.7)
-	.icon-right-dir, .icon-left-dir
-		font-size 1em
-		text-shadow 0px 0px 2px rgba(200, 200, 200, 0.3)
-		cursor pointer
+	bottom 40px
+	font-size 3em
+	height 1em
+.icon-left-open
+	left 5%
+.icon-right-open
+	right 5%
 
-
-.toggle
-	color white
+button
 	position fixed
 	font-size 40px
+	top 0px
 	left 0px
 	padding 10px
+	background none
 	color rgba(255,255,255, 1)
-	transition color 0.8s
+	border 0px solid black
 	transition left 0.3s
-	cursor pointer
+	.nav-toggle
+		transition color 0.8s
+		transition left 0.3s
+		cursor pointer
 
 .nav-full
 	position fixed
@@ -55,27 +58,27 @@ body
 		font-size 18px
 		line-height 1.5em
 
-#nav-toggler
-	display none
-	&:checked + .images-container
-		.nav-full
-			left 0px
-		.toggle
-			left 199px
+.unfold-toggle
+	left 199px
+
+
+.nav-active
+	left 0px
 
 @media all and (max-width 600px)
 	.nav-full
 		a
 			color white
+
 @media all and (min-width 601px)
 	.images-container
 		img
-			height auto
 			width 100%
-			display flex
-	.toggle
-		color rgba(255,255,255, 0.6)
-		
+	button
+		.nav-toggle
+			color rgba(255,255,255, 0.6)
+			background pink
+
 		&:hover
 			color rgba(255,255,255, 1)
 	.nav-full

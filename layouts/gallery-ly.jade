@@ -6,19 +6,17 @@ html(lang='es')
 		link(href='http://fonts.googleapis.com/css?family=Lato:300,400|Raleway:300' rel='stylesheet' type='text/css')
 		block title
 		//- link(rel='stylesheet' href='/css/rupture.css' type='css/stylesheet')
+		script(src='/js/jquery-min.js')
 		link(rel='stylesheet' href='css/main-min.css' type='text/css')
 		block css
 
 	
-	input(type='checkbox' id='nav-toggler')
+	button.nav-toggle ☰
+	include nav-sidebar
 	.images-container
-		include nav-sidebar
-		label.toggle(for='nav-toggler') ☰
 		block images
-	.image-selector
-		.icon-left-dir
-		.icon-right-dir
-	script(src='/js/jquery-min.js')
+	.icon-left-open
+	.icon-right-open
 	block async
 		script
 			include ../build/js/gallery-min.js
