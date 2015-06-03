@@ -154,6 +154,59 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/build\/galleria\/classic\/classic-map.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1840,
+		"inputAbbreviatedPath": "\/build\/galleria\/classic\/classic-map.png",
+		"outputAbbreviatedPath": "\/build\/galleria\/classic\/classic-map.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/build\/galleria\/classic\/galleria.classic.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/build\/galleria\/classic\/galleria.classic.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/build\/galleria\/classic\/galleria.classic.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/build\/galleria\/classic\/galleria.classic.js",
+		"outputAbbreviatedPath": "\/build\/js\/galleria.classic-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/build\/galleria\/classic\/galleria.classic.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/build\/galleria\/classic\/galleria.classic.min.js",
+		"outputAbbreviatedPath": "\/build\/js\/galleria.classic.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/build\/galleria\/galleria-1.4.2.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/build\/galleria\/galleria-1.4.2.min.js",
+		"outputAbbreviatedPath": "\/build\/js\/galleria-1.4.2.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/build\/gallery.html": {
 		"fileType": 8192,
 		"ignore": 1,
@@ -843,6 +896,33 @@
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0
 		},
+	"\/deprecated\/gallery layout first implementation.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/deprecated\/gallery layout first implementation.jade",
+		"outputAbbreviatedPath": "\/build\/gallery layout first implementation.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0
+		},
+	"\/deprecated\/gallery-first-implementation.styl": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"fileType": 8,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"importCSS": 1,
+		"inputAbbreviatedPath": "\/deprecated\/gallery-first-implementation.styl",
+		"outputAbbreviatedPath": "\/build\/css\/gallery-first-implementation.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"resolveRelativeURLS": 0,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0
+		},
 	"\/dummy.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
@@ -886,6 +966,17 @@
 		"outputAbbreviatedPath": "\/build\/js\/carousel.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 1,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/galleria-1.4.2.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/galleria-1.4.2.js",
+		"outputAbbreviatedPath": "\/build\/js\/galleria-1.4.2-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},

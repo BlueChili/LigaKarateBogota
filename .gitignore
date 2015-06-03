@@ -2,3 +2,5 @@
 .codekit_cache
 build/
 bower_components/
+deprecated/
+js/galleria-1.4.2.js
