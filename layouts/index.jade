@@ -1,5 +1,12 @@
 extends base
-	
+
+block css
+	link(rel='stylesheet' href='/slick/slick.css' type='text/css')
+	link(rel='stylesheet' href='/slick/slick-theme.css' type='text/css')
+
+block scripts
+	script(src='/slick/slick.min.js')
+
 block title
 	title Liga de Karate Do de Bogotá
 
@@ -44,18 +51,20 @@ block content
 					img(src='/img/img-placeholder.jpg')
 		section.news
 			h2 Noticias
-			.carousel
-				.slide.active-slide
-					a.feature(href='//article-1.html')
-						h3 ¡Bogotá campeona!
-					img.slide-img(src='img/campeona.jpg')
-				.slide
-					.feature
-						h3 Nacionales Cali - Día 1
-					img.slide-img(src='img/day1.jpg')
-				.arrows-container
-					.icon-left-open
-					.icon-right-open
+			.single-item
+				img(src='img/campeona.jpg')
+				img(src='img/day1.jpg')
+				//- a.feature(href='//article-1.html')
+				//- 	h3 ¡Bogotá campeona!
+				//- 	.feature-by-line
+				//- .slide
+				//- 	.feature
+				//- 		h3 Nacionales Cali - Día 1
+				//- //- .arrows-container
+				//- 	.icon-left-open
+				//- 	.icon-right-open
 block async
 	script
-		include ../build/js/carousel.js
+		include ../build/js/slick-init-min.js
+//- 	script
+//- 		include ../build/js/carousel.js
