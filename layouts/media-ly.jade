@@ -1,0 +1,15 @@
+extends base.jade
+
+block css
+  link(rel='stylesheet' href='css/media-min.css' type='text/css')
+
+
+block content
+  .master-container
+    .headline
+      block headline
+
+    .content-container
+      include nav-sidebar
+      .card-container
+        block galleries
