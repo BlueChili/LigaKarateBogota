@@ -1180,15 +1180,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/build\/css\/gallery.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/build\/css\/gallery.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/build\/css\/main-min.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -1212,24 +1203,6 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/css\/results.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/build\/dummy.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/build\/dummy.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/build\/gal-seminario.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/build\/gal-seminario.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -1579,83 +1552,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
-		},
-	"\/build\/img\/gal-seminario-040515\/1.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 253073,
-		"inputAbbreviatedPath": "\/build\/img\/gal-seminario-040515\/1.jpg",
-		"outputAbbreviatedPath": "\/build\/img\/gal-seminario-040515\/1.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/build\/img\/gal-seminario-040515\/2.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 89742,
-		"inputAbbreviatedPath": "\/build\/img\/gal-seminario-040515\/2.jpg",
-		"outputAbbreviatedPath": "\/build\/img\/gal-seminario-040515\/2.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/build\/img\/gal-seminario-040515\/3.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 299604,
-		"inputAbbreviatedPath": "\/build\/img\/gal-seminario-040515\/3.jpg",
-		"outputAbbreviatedPath": "\/build\/img\/gal-seminario-040515\/3.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/build\/img\/gal-seminario-040515\/4.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 72735,
-		"inputAbbreviatedPath": "\/build\/img\/gal-seminario-040515\/4.jpg",
-		"outputAbbreviatedPath": "\/build\/img\/gal-seminario-040515\/4.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/build\/img\/gal-seminario-040515\/5.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 89211,
-		"inputAbbreviatedPath": "\/build\/img\/gal-seminario-040515\/5.jpg",
-		"outputAbbreviatedPath": "\/build\/img\/gal-seminario-040515\/5.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/build\/img\/gal-seminario-040515\/6.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 265626,
-		"inputAbbreviatedPath": "\/build\/img\/gal-seminario-040515\/6.jpg",
-		"outputAbbreviatedPath": "\/build\/img\/gal-seminario-040515\/6.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/build\/img\/gal-seminario-040515\/7.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 286711,
-		"inputAbbreviatedPath": "\/build\/img\/gal-seminario-040515\/7.jpg",
-		"outputAbbreviatedPath": "\/build\/img\/gal-seminario-040515\/7.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
 		},
 	"\/build\/img\/img-placeholder.jpg": {
 		"fileType": 16384,
@@ -2176,17 +2072,6 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/dummy.jade",
 		"outputAbbreviatedPath": "\/build\/dummy.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0
-		},
-	"\/gal-seminario.jade": {
-		"compileDebug": 1,
-		"fileType": 512,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/gal-seminario.jade",
-		"outputAbbreviatedPath": "\/build\/gal-seminario.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
