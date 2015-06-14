@@ -1234,59 +1234,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/build\/galleria\/classic\/classic-map.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1840,
-		"inputAbbreviatedPath": "\/build\/galleria\/classic\/classic-map.png",
-		"outputAbbreviatedPath": "\/build\/galleria\/classic\/classic-map.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/build\/galleria\/classic\/galleria.classic.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/build\/galleria\/classic\/galleria.classic.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/build\/galleria\/classic\/galleria.classic.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/build\/galleria\/classic\/galleria.classic.js",
-		"outputAbbreviatedPath": "\/build\/js\/galleria.classic-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/build\/galleria\/classic\/galleria.classic.min.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/build\/galleria\/classic\/galleria.classic.min.js",
-		"outputAbbreviatedPath": "\/build\/js\/galleria.classic.min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/build\/galleria\/galleria-1.4.2.min.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/build\/galleria\/galleria-1.4.2.min.js",
-		"outputAbbreviatedPath": "\/build\/js\/galleria-1.4.2.min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
 	"\/build\/galleries.html": {
 		"fileType": 8192,
 		"ignore": 1,
@@ -1379,6 +1326,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
+		},
+	"\/build\/img\/carousel\/riohacha-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 236766,
+		"inputAbbreviatedPath": "\/build\/img\/carousel\/riohacha-1.jpg",
+		"outputAbbreviatedPath": "\/build\/img\/carousel\/riohacha-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/build\/img\/clubs\/card-1.jpg": {
 		"fileType": 16384,
@@ -1721,6 +1679,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/build\/img\/media\/thumbnails\/40-anos.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 15923,
+		"inputAbbreviatedPath": "\/build\/img\/media\/thumbnails\/40-anos.jpg",
+		"outputAbbreviatedPath": "\/build\/img\/media\/thumbnails\/40-anos.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/build\/img\/media\/thumbnails\/baul-recuerdos.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17396,
+		"inputAbbreviatedPath": "\/build\/img\/media\/thumbnails\/baul-recuerdos.jpg",
+		"outputAbbreviatedPath": "\/build\/img\/media\/thumbnails\/baul-recuerdos.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/build\/img\/media\/thumbnails\/bogota-campeona.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 13154,
+		"inputAbbreviatedPath": "\/build\/img\/media\/thumbnails\/bogota-campeona.jpg",
+		"outputAbbreviatedPath": "\/build\/img\/media\/thumbnails\/bogota-campeona.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/build\/img\/top_web.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1774,6 +1765,28 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/build\/js\/result-selector.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/build\/js\/result-selector.js",
+		"outputAbbreviatedPath": "\/build\/js\/result-selector-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/build\/js\/results\/app.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/build\/js\/results\/app.js",
+		"outputAbbreviatedPath": "\/build\/js\/app-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/build\/js\/slick-init-min.js": {
 		"fileType": 64,
 		"ignore": 1,
@@ -1793,6 +1806,17 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/build\/result-selector.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/build\/result-selector.js",
+		"outputAbbreviatedPath": "\/build\/js\/result-selector-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/build\/results.html": {
 		"fileType": 8192,
@@ -2292,17 +2316,6 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
 		},
-	"\/layouts\/gallery-ly.jade": {
-		"compileDebug": 1,
-		"fileType": 512,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/layouts\/gallery-ly.jade",
-		"outputAbbreviatedPath": "\/build\/gallery-ly.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0
-		},
 	"\/layouts\/header.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
@@ -2323,17 +2336,6 @@
 		"outputAbbreviatedPath": "\/build\/history-ly.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0
-		},
-	"\/layouts\/index.jade": {
-		"compileDebug": 1,
-		"fileType": 512,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/layouts\/index.jade",
-		"outputAbbreviatedPath": "\/build\/index.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 1,
 		"outputStyle": 0
 		},
 	"\/layouts\/links.jade": {
@@ -2411,6 +2413,17 @@
 		"outputAbbreviatedPath": "\/build\/contact.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
+		"outputStyle": 0
+		},
+	"\/src\/pages\/index.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/pages\/index.jade",
+		"outputAbbreviatedPath": "\/build\/index.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1,
 		"outputStyle": 0
 		},
 	"\/success.jade": {
