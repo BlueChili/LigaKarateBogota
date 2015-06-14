@@ -7,34 +7,44 @@ block headline
 	h1 Resultados de la LKB
 
 block results
-	.result-card
-		.cell
-			h6 Año
-			p 2014
-		.cell
-			h6 Evento
-			p Juegos Nacionales
-		.cell
-			h6 modalidad
-			p kata
-		.cell
-			h6 categoría
-			p mayores
-		.cell
-			h6 atletas
-			p 6
-		.cell
-			h6 entrenadores
-			p 1
-		.cell
-			h6 oficiales
-			p 4
-		.cell
-			h6 oro
-			p 2
-		.cell
-			h6 plata
-			p -
-		.cell
-			h6 bronce
-			p 3
+	section.news Karate Guajira 2015 Día 1
+		a.icon-file-pdf(href='/img/media/docs/SENIOR-Tabla-de-Medalleria.pdf') Tabla de Medallería
+		a.icon-file-pdf(href='/img/media/docs/SENIOR-Planillas-Masc.pdf') Senior Planillas Masculino
+		a.icon-file-pdf(href='/img/media/docs/SENIOR-Planillas-Feme.pdf') Senior Planillas Femenino
+		a.icon-file-pdf(href='/img/media/docs/SENIOR-Resultados-Masc.pdf') Senior Resultados Masculino
+		a.icon-file-pdf(href='/img/media/docs/SENIOR-Resultados-Feme.pdf') Senior Resultados Femenino
+
+	.result-card(ng-controller='CicloController as ciclo')
+		h5 participación campeonatos y preparación 2015
+		
+		.data-container(ng-repeat='event in ciclo.evento | limitTo: 1')
+			.cell
+				h6 sede
+				p {{event.sede}}
+			.cell
+				h6 evento
+				p {{event.evento}}
+			.cell
+				h6 modalidad
+				p {{event.modalidad}}
+			.cell
+				h6 categoría
+				p {{event.categoria}}
+			.cell
+				h6 atletas
+				p {{event.atletas}}
+			.cell
+				h6 entrenadores
+				p {{event.entrenadores}}
+			.cell
+				h6 oficiales
+				p {{event.oficiales}}
+			.cell
+				h6 oro
+				p {{event.oro}}
+			.cell
+				h6 plata
+				p {{event.plata}}
+			.cell
+				h6 bronce
+				p {{event.bronce}}

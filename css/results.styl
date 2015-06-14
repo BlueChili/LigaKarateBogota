@@ -1,3 +1,6 @@
+hr
+ margin 1.5em
+
 .master-container
 	display flex
 	flex-direction column
@@ -7,36 +10,79 @@
 		flex-flow row
 		justify-content center
 		margin-bottom 1em
+		padding 0 2em 0
 		h1
 			font-size 3em
+			text-align center
 	.content-wrapper
 		display flex
 		flex-flow column
 		margin-top 1em
 		.results-wrapper
 			display flex
-			flex-flow column
+			flex-flow column wrap
 			// background pink
 			// box-shadow 1px 2px 5px #888
-			margin-bottom 0.2em
-			.result-card
-				display flex
-				width 100%
-				.cell
-					font-size 1.2em
-					text-align center
-					display flex
-					flex-flow column
-					overflow none
-					flex 100%
-					h6
-						background #b8cfef
-						text-align center
-						width 100%
-					p, h6
-						margin 0
-						padding 1em
-						border 1px solid white
+			margin-bottom 1em
+
+.news
+  display flex
+  flex-flow column
+  box-shadow 0px 1px 2px rgba(0,0,0,0.1)
+  color white
+  background #d40221       // My really nice green #47c15a
+  font-size 2em
+  text-align center
+  width 100%
+  padding-top 20px
+  font-family 'Raleway'
+  margin-bottom 1em
+  :first-child
+    border-top 1px solid #b8cfef
+    margin-top 20px
+  a
+    font-family 'Lato'
+    font-size 0.6em
+    text-align center
+    padding 0.8em
+    text-decoration none
+    text-align left
+    border-bottom 1px solid #b8cfef
+    background white
+
+.result-card
+  display flex
+  flex-flow column
+  text-align center
+  padding-bottom 1em
+  margin-bottom 1em
+  box-shadow 0px 1px 2px rgba(0,0,0,0.1)
+  button
+    cursor pointer
+  h5
+    text-transform capitalize
+    background #d40221    // #47c15a
+    font-size 2em
+    padding 0.5em
+    color white
+  .data-container
+    display flex
+    justify-content center
+    width 100%
+    .cell
+      display flex
+      flex-flow column
+      font-size 1.2em
+      text-align center
+      margin 0
+      min-width 140px
+      h6
+        background #b8cfef
+      p, h6
+        border 1px solid white
+        padding 0.5em
+        font-size 0.9em
+        text-transform capitalize
 
 
 .nav-full
@@ -66,16 +112,18 @@
 		width 1em
 		padding 0.2em
 		transition color 1s, background 1s
-	@media screen and (max-width 600px)
+	@media screen and (max-width 1023px)
 		order 2
-		box-shadow 0px 0px 5px #888
-	@media screen and (min-width 601px)
+		box-shadow 0px 1px 2px rgba(0,0,0,0.1)
+	@media screen and (min-width 1024px)
 		border-right 1px solid #67a9ef
 		width 22.3em
 		margin-right 1em
 
 
-@media screen and (min-width 601px)
+@media screen and (min-width 1024px)
+	.round
+		width 100%
 	.master-container
 		flex-direction column
 		width 68em
@@ -87,36 +135,34 @@
 				padding 0.5em
 		.content-wrapper
 			display flex
-			flex-flow row nowrap
-			.results-wrapper
+			flex-flow row
+			main
 				display flex
 				flex-flow row wrap
-				flex 100%
-				padding 0
-				margin 0
-				justify-content space-around
-				.gallery-card-video, .gallery-card-image
+				width 100%
+				// width 100%
+// 				flex 100%
+// 				padding 0
+// 				margin 0
+// 				justify-content space-around
+				.data-container
 					display flex
-					flex-direction column
-					width 45%
-					color white
-					background rgb(21,21,21)
-					margin 0.5em
-					padding 0.5em
-					box-shadow 1px 2px 5px #888
-					iframe
-						max-width 100%
-					h4
-						font-size 1.4em
-						padding 0.3em 0
-						text-align center
-						line-height 1.5
+					flex-flow row wrap
+					// .cell
+// 					display flex
+// 					flex-direction column
+// 					width 45%
+// 					color white
+// 					background rgb(21,21,21)
+// 					margin 0.5em
+// 					padding 0.5em
+// 					box-shadow 1px 2px 5px #888
 
-// @media screen and (min-width 601px)
-// 	.master-container
-// 		flex-direction column
-// 		width 68em
-// 		margin 0 auto
-//     .content-container
-//       background pink
-//
+// // @media screen and (min-width 601px)
+// // 	.master-container
+// // 		flex-direction column
+// // 		width 68em
+// // 		margin 0 auto
+// //     .content-container
+// //       background pink
+// //
