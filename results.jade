@@ -7,7 +7,40 @@ block headline
 	h1 Resultados de la LKB
 
 block results
-	section.news Karate Guajira 2015 Día 1
+	section.noticias
+		h5 Resultados Riohacha 2015 - Menores de 21 años
+		.table
+			a.icon-file-pdf(href="/files/docs/resultados-finales-guajira-2015/CADETES-Planillas-Feme.pdf") CADETES Planillas Femeninas
+			a.icon-file-pdf(href="/files/docs/resultados-finales-guajira-2015/CADETES-Planillas-Masc.pdf") CADETES Planillas Masculinas
+			a.icon-file-pdf(href="/files/docs/resultados-finales-guajira-2015/CADETES-Resultados-Feme.pdf") CADETES Resultados Femeninos
+			a.icon-file-pdf(href="/files/docs/resultados-finales-guajira-2015/CADETES-Resultados-Masc.pdf") CADETES Resultados Masculinos
+			a.icon-file-pdf(href="/files/docs/resultados-finales-guajira-2015/CADETES-Tabla-de-Medalleria.pdf") CADETES Tabla de Medallería
+			a.icon-file-pdf(href="/files/docs/resultados-finales-guajira-2015/ESCUELA-DE-FORMACION-Resultados-Feme.pdf") ESCUELA Resultados Femeninos
+			a.icon-file-pdf(href="/files/docs/resultados-finales-guajira-2015/ESCUELA-DE-FORMACION-Resultados-Masc.pdf") ESCUELA Resultados Masculinos
+			a.icon-file-pdf(href="/files/docs/resultados-finales-guajira-2015/ESCUELA-FORMACION-Planillas-Feme.pdf") ESCUELA FORMACION Planillas Femeninas
+			a.icon-file-pdf(href="/files/docs/resultados-finales-guajira-2015/ESCUELA-FORMACION-Planillas-Masc.pdf") ESCUELA FORMACION Planillas Masculinas
+			a.icon-file-pdf(href="/files/docs/resultados-finales-guajira-2015/INFANTIL-Planillas-Feme.pdf") INFANTIL Planillas Femeninas
+			a.icon-file-pdf(href="/files/docs/resultados-finales-guajira-2015/INFANTIL-Planillas-Masc.pdf") INFANTIL Planillas Masculinas
+			a.icon-file-pdf(href="/files/docs/resultados-finales-guajira-2015/INFANTIL-Resultados-Feme.pdf") INFANTIL Resultados Femeninos
+			a.icon-file-pdf(href="/files/docs/resultados-finales-guajira-2015/INFANTIL-Resultados-Masc.pdf") INFANTIL Resultados Masculinos
+			a.icon-file-pdf(href="/files/docs/resultados-finales-guajira-2015/INFANTIL-Tabla-de-Medalleria.pdf") INFANTIL Tabla de Medallería
+			a.icon-file-pdf(href="/files/docs/resultados-finales-guajira-2015/JUNIOR-Planillas-Feme.pdf") JUNIOR Planillas Femeninas
+			a.icon-file-pdf(href="/files/docs/resultados-finales-guajira-2015/JUNIOR-Planillas-Masc.pdf") JUNIOR Planillas Masculinas
+			a.icon-file-pdf(href="/files/docs/resultados-finales-guajira-2015/JUNIOR-Resultados-Feme.pdf") JUNIOR Resultados Femeninos
+			a.icon-file-pdf(href="/files/docs/resultados-finales-guajira-2015/JUNIOR-Resultados-Masc.pdf") JUNIOR Resultados Masculinos
+			a.icon-file-pdf(href="/files/docs/resultados-finales-guajira-2015/JUNIOR-Tabla-de-Medalleria.pdf") JUNIOR Tabla de Medallería
+			a.icon-file-pdf(href="/files/docs/resultados-finales-guajira-2015/PRE-INFANTIL-Planillas-Feme.pdf") PRE-INFANTIL Planillas Femeninas
+			a.icon-file-pdf(href="/files/docs/resultados-finales-guajira-2015/PRE-INFANTIL-Planillas-Masc.pdf") PRE-INFANTIL Planillas Masculinas
+			a.icon-file-pdf(href="/files/docs/resultados-finales-guajira-2015/PRE-INFANTIL-Resultados-Feme.pdf") PRE-INFANTIL Resultados Femeninos
+			a.icon-file-pdf(href="/files/docs/resultados-finales-guajira-2015/PRE-INFANTIL-Resultados-Masc.pdf") PRE-INFANTIL Resultados Masculinos
+			a.icon-file-pdf(href="/files/docs/resultados-finales-guajira-2015/SUB21-Planillas-Feme.pdf") SUB21 Planillas Femeninas
+			a.icon-file-pdf(href="/files/docs/resultados-finales-guajira-2015/SUB21-Planillas-Masc.pdf") SUB21 Planillas Masculinas
+			a.icon-file-pdf(href="/files/docs/resultados-finales-guajira-2015/SUB21-Resultados-Feme.pdf") SUB21 Resultados Femeninos
+			a.icon-file-pdf(href="/files/docs/resultados-finales-guajira-2015/SUB21-Resultados-Masc.pdf") SUB21 Resultados Masculinos
+			a.icon-file-pdf(href="/files/docs/resultados-finales-guajira-2015/SUB21-Tabla-de-Medalleria.pdf") SUB21 Tabla de Medallería
+	
+	section.noticias
+		h5 Karate Guajira 2015 Día 1
 		a.icon-file-pdf(href='/files/docs/SENIOR-Tabla-de-Medalleria.pdf') Tabla de Medallería
 		a.icon-file-pdf(href='/files/docs/SENIOR-Planillas-Masc.pdf') Senior Planillas Masculino
 		a.icon-file-pdf(href='/files/docs/SENIOR-Planillas-Feme.pdf') Senior Planillas Femenino
@@ -16,8 +49,8 @@ block results
 
 	.result-card(ng-controller='CicloController as ciclo' ng-init='i = 0')
 		h5 participación campeonatos y preparación 2015
-		button(ng-click='i++') segundo evento
-		p {{i}}
+		//- button(ng-click='i++') segundo evento
+		//- p {{i}}
 		.data-container(ng-repeat='event in ciclo.evento | limitTo: 1')
 			.cell
 				h6 sede
