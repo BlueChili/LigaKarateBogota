@@ -1626,6 +1626,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/build\/img\/org-thumbnail.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 82951,
+		"inputAbbreviatedPath": "\/build\/img\/org-thumbnail.png",
+		"outputAbbreviatedPath": "\/build\/img\/org-thumbnail.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/build\/img\/organigrama.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 156775,
+		"inputAbbreviatedPath": "\/build\/img\/organigrama.png",
+		"outputAbbreviatedPath": "\/build\/img\/organigrama.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/build\/img\/top_web.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
