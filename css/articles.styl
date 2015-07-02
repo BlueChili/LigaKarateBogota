@@ -145,12 +145,7 @@ aside.club-card
 			font-size 1.5em
 
 .thumbnail
-	cursor pointer
-
-.overlay-organigrama.open
-	opacity 1
-	visibility visible
-	z-index 2		
+	cursor pointer	
 
 .overlay-organigrama
 	position fixed
@@ -161,6 +156,10 @@ aside.club-card
 	opacity 0
 	visibility hidden
 	background rgba(212, 2, 33, 0.6)
+	&.open
+		opacity 1
+		visibility visible
+		z-index 2
 	img
 		width 90%
 		margin auto
