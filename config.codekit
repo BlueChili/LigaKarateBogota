@@ -1,6 +1,6 @@
 {
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
-"creatorBuild": "19033",
+"creatorBuild": "19076",
 "files": {
 	"\/404.jade": {
 		"compileDebug": 1,
@@ -1243,50 +1243,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/build\/img\/10477397_799751550108669_7786738248042844580_n.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 83226,
-		"inputAbbreviatedPath": "\/build\/img\/10477397_799751550108669_7786738248042844580_n.jpg",
-		"outputAbbreviatedPath": "\/build\/img\/10477397_799751550108669_7786738248042844580_n.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/build\/img\/10995591_799751623441995_2513111069631922661_n.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 60040,
-		"inputAbbreviatedPath": "\/build\/img\/10995591_799751623441995_2513111069631922661_n.jpg",
-		"outputAbbreviatedPath": "\/build\/img\/10995591_799751623441995_2513111069631922661_n.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/build\/img\/11071088_799751513442006_4783085182825595493_n.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 58861,
-		"inputAbbreviatedPath": "\/build\/img\/11071088_799751513442006_4783085182825595493_n.jpg",
-		"outputAbbreviatedPath": "\/build\/img\/11071088_799751513442006_4783085182825595493_n.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/build\/img\/11082532_799751740108650_4947464444433278245_n.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 70637,
-		"inputAbbreviatedPath": "\/build\/img\/11082532_799751740108650_4947464444433278245_n.jpg",
-		"outputAbbreviatedPath": "\/build\/img\/11082532_799751740108650_4947464444433278245_n.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/build\/img\/210000_359512877465874_1300029204_o.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1309,746 +1265,16 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
-	"\/build\/img\/carousel\/404.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/build\/img\/carousel\/404.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/build\/img\/carousel\/about.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/build\/img\/carousel\/about.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/build\/img\/carousel\/clubs.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/build\/img\/carousel\/clubs.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/build\/img\/carousel\/contact.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/build\/img\/carousel\/contact.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/build\/img\/carousel\/css\/articles-min.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/build\/img\/carousel\/css\/articles-min.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/build\/img\/carousel\/css\/contact-min.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/build\/img\/carousel\/css\/contact-min.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/build\/img\/carousel\/css\/dummy.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/build\/img\/carousel\/css\/dummy.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/build\/img\/carousel\/css\/fontello.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/build\/img\/carousel\/css\/fontello.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/build\/img\/carousel\/css\/gallery.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/build\/img\/carousel\/css\/gallery.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/build\/img\/carousel\/css\/main-min.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/build\/img\/carousel\/css\/main-min.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/build\/img\/carousel\/css\/media-min.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/build\/img\/carousel\/css\/media-min.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/build\/img\/carousel\/css\/results.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/build\/img\/carousel\/css\/results.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/build\/img\/carousel\/galleries.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/build\/img\/carousel\/galleries.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/build\/img\/carousel\/gallery.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/build\/img\/carousel\/gallery.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/build\/img\/carousel\/history.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/build\/img\/carousel\/history.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/build\/img\/carousel\/img\/10477397_799751550108669_7786738248042844580_n.jpg": {
+	"\/build\/img\/carousel\/resultados-superate-2015.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/build\/img\/carousel\/img\/10477397_799751550108669_7786738248042844580_n.jpg",
-		"outputAbbreviatedPath": "\/build\/img\/carousel\/img\/10477397_799751550108669_7786738248042844580_n.jpg",
+		"initialSize": 178394,
+		"inputAbbreviatedPath": "\/build\/img\/carousel\/resultados-superate-2015.jpg",
+		"outputAbbreviatedPath": "\/build\/img\/carousel\/resultados-superate-2015.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
-		},
-	"\/build\/img\/carousel\/img\/10995591_799751623441995_2513111069631922661_n.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/build\/img\/carousel\/img\/10995591_799751623441995_2513111069631922661_n.jpg",
-		"outputAbbreviatedPath": "\/build\/img\/carousel\/img\/10995591_799751623441995_2513111069631922661_n.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/build\/img\/carousel\/img\/11071088_799751513442006_4783085182825595493_n.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/build\/img\/carousel\/img\/11071088_799751513442006_4783085182825595493_n.jpg",
-		"outputAbbreviatedPath": "\/build\/img\/carousel\/img\/11071088_799751513442006_4783085182825595493_n.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/build\/img\/carousel\/img\/11082532_799751740108650_4947464444433278245_n.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/build\/img\/carousel\/img\/11082532_799751740108650_4947464444433278245_n.jpg",
-		"outputAbbreviatedPath": "\/build\/img\/carousel\/img\/11082532_799751740108650_4947464444433278245_n.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/build\/img\/carousel\/img\/210000_359512877465874_1300029204_o.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/build\/img\/carousel\/img\/210000_359512877465874_1300029204_o.jpg",
-		"outputAbbreviatedPath": "\/build\/img\/carousel\/img\/210000_359512877465874_1300029204_o.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/build\/img\/carousel\/img\/campeona.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/build\/img\/carousel\/img\/campeona.jpg",
-		"outputAbbreviatedPath": "\/build\/img\/carousel\/img\/campeona.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/build\/img\/carousel\/img\/carousel\/results.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/build\/img\/carousel\/img\/carousel\/results.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/build\/img\/carousel\/img\/carousel\/riohacha-1.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/build\/img\/carousel\/img\/carousel\/riohacha-1.jpg",
-		"outputAbbreviatedPath": "\/build\/img\/carousel\/img\/carousel\/riohacha-1.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/build\/img\/carousel\/img\/clubs\/card-1.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/build\/img\/carousel\/img\/clubs\/card-1.jpg",
-		"outputAbbreviatedPath": "\/build\/img\/carousel\/img\/clubs\/card-1.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/build\/img\/carousel\/img\/clubs\/card-2.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/build\/img\/carousel\/img\/clubs\/card-2.jpg",
-		"outputAbbreviatedPath": "\/build\/img\/carousel\/img\/clubs\/card-2.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/build\/img\/carousel\/img\/clubs\/card-3.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/build\/img\/carousel\/img\/clubs\/card-3.jpg",
-		"outputAbbreviatedPath": "\/build\/img\/carousel\/img\/clubs\/card-3.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/build\/img\/carousel\/img\/clubs\/card-4.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/build\/img\/carousel\/img\/clubs\/card-4.jpg",
-		"outputAbbreviatedPath": "\/build\/img\/carousel\/img\/clubs\/card-4.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/build\/img\/carousel\/img\/clubs\/logo.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/build\/img\/carousel\/img\/clubs\/logo.png",
-		"outputAbbreviatedPath": "\/build\/img\/carousel\/img\/clubs\/logo.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/build\/img\/carousel\/img\/clubs\/logo_acueducto.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/build\/img\/carousel\/img\/clubs\/logo_acueducto.jpg",
-		"outputAbbreviatedPath": "\/build\/img\/carousel\/img\/clubs\/logo_acueducto.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/build\/img\/carousel\/img\/clubs\/logo_chrysler.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/build\/img\/carousel\/img\/clubs\/logo_chrysler.jpg",
-		"outputAbbreviatedPath": "\/build\/img\/carousel\/img\/clubs\/logo_chrysler.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/build\/img\/carousel\/img\/clubs\/logo_condor.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/build\/img\/carousel\/img\/clubs\/logo_condor.jpg",
-		"outputAbbreviatedPath": "\/build\/img\/carousel\/img\/clubs\/logo_condor.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/build\/img\/carousel\/img\/clubs\/logo_dane.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/build\/img\/carousel\/img\/clubs\/logo_dane.jpg",
-		"outputAbbreviatedPath": "\/build\/img\/carousel\/img\/clubs\/logo_dane.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/build\/img\/carousel\/img\/clubs\/logo_dojo_hayato.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/build\/img\/carousel\/img\/clubs\/logo_dojo_hayato.jpg",
-		"outputAbbreviatedPath": "\/build\/img\/carousel\/img\/clubs\/logo_dojo_hayato.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/build\/img\/carousel\/img\/clubs\/logo_dojo_tori.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/build\/img\/carousel\/img\/clubs\/logo_dojo_tori.jpg",
-		"outputAbbreviatedPath": "\/build\/img\/carousel\/img\/clubs\/logo_dojo_tori.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/build\/img\/carousel\/img\/clubs\/logo_gomez_kai.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/build\/img\/carousel\/img\/clubs\/logo_gomez_kai.jpg",
-		"outputAbbreviatedPath": "\/build\/img\/carousel\/img\/clubs\/logo_gomez_kai.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/build\/img\/carousel\/img\/clubs\/logo_jorge_abraham.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/build\/img\/carousel\/img\/clubs\/logo_jorge_abraham.jpg",
-		"outputAbbreviatedPath": "\/build\/img\/carousel\/img\/clubs\/logo_jorge_abraham.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/build\/img\/carousel\/img\/clubs\/logo_kiryoku.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/build\/img\/carousel\/img\/clubs\/logo_kiryoku.jpg",
-		"outputAbbreviatedPath": "\/build\/img\/carousel\/img\/clubs\/logo_kiryoku.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/build\/img\/carousel\/img\/clubs\/logo_la_victoria.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/build\/img\/carousel\/img\/clubs\/logo_la_victoria.jpg",
-		"outputAbbreviatedPath": "\/build\/img\/carousel\/img\/clubs\/logo_la_victoria.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/build\/img\/carousel\/img\/clubs\/logo_los_libertadores.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/build\/img\/carousel\/img\/clubs\/logo_los_libertadores.jpg",
-		"outputAbbreviatedPath": "\/build\/img\/carousel\/img\/clubs\/logo_los_libertadores.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/build\/img\/carousel\/img\/clubs\/logo_matizkam.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/build\/img\/carousel\/img\/clubs\/logo_matizkam.jpg",
-		"outputAbbreviatedPath": "\/build\/img\/carousel\/img\/clubs\/logo_matizkam.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/build\/img\/carousel\/img\/clubs\/logo_nara.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/build\/img\/carousel\/img\/clubs\/logo_nara.jpg",
-		"outputAbbreviatedPath": "\/build\/img\/carousel\/img\/clubs\/logo_nara.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/build\/img\/carousel\/img\/clubs\/logo_restrepo_millan.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/build\/img\/carousel\/img\/clubs\/logo_restrepo_millan.jpg",
-		"outputAbbreviatedPath": "\/build\/img\/carousel\/img\/clubs\/logo_restrepo_millan.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/build\/img\/carousel\/img\/clubs\/logo_sakura.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/build\/img\/carousel\/img\/clubs\/logo_sakura.jpg",
-		"outputAbbreviatedPath": "\/build\/img\/carousel\/img\/clubs\/logo_sakura.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/build\/img\/carousel\/img\/clubs\/logo_samurai.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/build\/img\/carousel\/img\/clubs\/logo_samurai.jpg",
-		"outputAbbreviatedPath": "\/build\/img\/carousel\/img\/clubs\/logo_samurai.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/build\/img\/carousel\/img\/day1.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/build\/img\/carousel\/img\/day1.jpg",
-		"outputAbbreviatedPath": "\/build\/img\/carousel\/img\/day1.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/build\/img\/carousel\/img\/gal-seminario-040515\/1.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/build\/img\/carousel\/img\/gal-seminario-040515\/1.jpg",
-		"outputAbbreviatedPath": "\/build\/img\/carousel\/img\/gal-seminario-040515\/1.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/build\/img\/carousel\/img\/gal-seminario-040515\/2.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/build\/img\/carousel\/img\/gal-seminario-040515\/2.jpg",
-		"outputAbbreviatedPath": "\/build\/img\/carousel\/img\/gal-seminario-040515\/2.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/build\/img\/carousel\/img\/gal-seminario-040515\/3.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/build\/img\/carousel\/img\/gal-seminario-040515\/3.jpg",
-		"outputAbbreviatedPath": "\/build\/img\/carousel\/img\/gal-seminario-040515\/3.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/build\/img\/carousel\/img\/gal-seminario-040515\/4.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/build\/img\/carousel\/img\/gal-seminario-040515\/4.jpg",
-		"outputAbbreviatedPath": "\/build\/img\/carousel\/img\/gal-seminario-040515\/4.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/build\/img\/carousel\/img\/gal-seminario-040515\/5.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/build\/img\/carousel\/img\/gal-seminario-040515\/5.jpg",
-		"outputAbbreviatedPath": "\/build\/img\/carousel\/img\/gal-seminario-040515\/5.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/build\/img\/carousel\/img\/gal-seminario-040515\/6.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/build\/img\/carousel\/img\/gal-seminario-040515\/6.jpg",
-		"outputAbbreviatedPath": "\/build\/img\/carousel\/img\/gal-seminario-040515\/6.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/build\/img\/carousel\/img\/gal-seminario-040515\/7.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/build\/img\/carousel\/img\/gal-seminario-040515\/7.jpg",
-		"outputAbbreviatedPath": "\/build\/img\/carousel\/img\/gal-seminario-040515\/7.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/build\/img\/carousel\/img\/img-placeholder.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/build\/img\/carousel\/img\/img-placeholder.jpg",
-		"outputAbbreviatedPath": "\/build\/img\/carousel\/img\/img-placeholder.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/build\/img\/carousel\/img\/logo.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/build\/img\/carousel\/img\/logo.png",
-		"outputAbbreviatedPath": "\/build\/img\/carousel\/img\/logo.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/build\/img\/carousel\/img\/media\/thumbnails\/40-anos.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/build\/img\/carousel\/img\/media\/thumbnails\/40-anos.jpg",
-		"outputAbbreviatedPath": "\/build\/img\/carousel\/img\/media\/thumbnails\/40-anos.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/build\/img\/carousel\/img\/media\/thumbnails\/baul-recuerdos.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/build\/img\/carousel\/img\/media\/thumbnails\/baul-recuerdos.jpg",
-		"outputAbbreviatedPath": "\/build\/img\/carousel\/img\/media\/thumbnails\/baul-recuerdos.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/build\/img\/carousel\/img\/media\/thumbnails\/bogota-campeona.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/build\/img\/carousel\/img\/media\/thumbnails\/bogota-campeona.jpg",
-		"outputAbbreviatedPath": "\/build\/img\/carousel\/img\/media\/thumbnails\/bogota-campeona.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/build\/img\/carousel\/img\/org-thumbnail.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/build\/img\/carousel\/img\/org-thumbnail.png",
-		"outputAbbreviatedPath": "\/build\/img\/carousel\/img\/org-thumbnail.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/build\/img\/carousel\/img\/organigrama.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/build\/img\/carousel\/img\/organigrama.png",
-		"outputAbbreviatedPath": "\/build\/img\/carousel\/img\/organigrama.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/build\/img\/carousel\/img\/top_web.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/build\/img\/carousel\/img\/top_web.jpg",
-		"outputAbbreviatedPath": "\/build\/img\/carousel\/img\/top_web.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/build\/img\/carousel\/img\/xlogo.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/build\/img\/carousel\/img\/xlogo.png",
-		"outputAbbreviatedPath": "\/build\/img\/carousel\/img\/xlogo.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/build\/img\/carousel\/index.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/build\/img\/carousel\/index.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/build\/img\/carousel\/js\/carousel.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/build\/img\/carousel\/js\/carousel.js",
-		"outputAbbreviatedPath": "\/build\/js\/carousel-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/build\/img\/carousel\/js\/gallery-min.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/build\/img\/carousel\/js\/gallery-min.js",
-		"outputAbbreviatedPath": "\/build\/js\/gallery-min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/build\/img\/carousel\/js\/jquery-min.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/build\/img\/carousel\/js\/jquery-min.js",
-		"outputAbbreviatedPath": "\/build\/js\/jquery-min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/build\/img\/carousel\/js\/result-selector.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/build\/img\/carousel\/js\/result-selector.js",
-		"outputAbbreviatedPath": "\/build\/js\/result-selector-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/build\/img\/carousel\/js\/results\/app.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/build\/img\/carousel\/js\/results\/app.js",
-		"outputAbbreviatedPath": "\/build\/js\/app-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/build\/img\/carousel\/js\/slick-init-min.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/build\/img\/carousel\/js\/slick-init-min.js",
-		"outputAbbreviatedPath": "\/build\/js\/slick-init-min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/build\/img\/carousel\/media.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/build\/img\/carousel\/media.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/build\/img\/carousel\/results.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/build\/img\/carousel\/results.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/build\/img\/carousel\/results.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/build\/img\/carousel\/results.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
 		},
 	"\/build\/img\/carousel\/riohacha-1.jpg": {
 		"fileType": 16384,
@@ -2060,87 +1286,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
-		},
-	"\/build\/img\/carousel\/slick\/slick-theme.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/build\/img\/carousel\/slick\/slick-theme.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/build\/img\/carousel\/slick\/slick-theme.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 4,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/build\/img\/carousel\/slick\/slick-theme.scss",
-		"outputAbbreviatedPath": "\/build\/img\/carousel\/css\/slick-theme.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 1,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
-	"\/build\/img\/carousel\/slick\/slick.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/build\/img\/carousel\/slick\/slick.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/build\/img\/carousel\/slick\/slick.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/build\/img\/carousel\/slick\/slick.js",
-		"outputAbbreviatedPath": "\/build\/js\/slick-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/build\/img\/carousel\/slick\/slick.min.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/build\/img\/carousel\/slick\/slick.min.js",
-		"outputAbbreviatedPath": "\/build\/js\/slick.min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/build\/img\/carousel\/slick\/slick.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 4,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/build\/img\/carousel\/slick\/slick.scss",
-		"outputAbbreviatedPath": "\/build\/img\/carousel\/css\/slick.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 1,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
-	"\/build\/img\/carousel\/success.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/build\/img\/carousel\/success.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
 		},
 	"\/build\/img\/clubs\/card-1.jpg": {
 		"fileType": 16384,
@@ -2406,6 +1551,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/build\/img\/media\/news\/seminario_2015-01.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.28483e+06,
+		"inputAbbreviatedPath": "\/build\/img\/media\/news\/seminario_2015-01.jpg",
+		"outputAbbreviatedPath": "\/build\/img\/media\/news\/seminario_2015-01.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/build\/img\/media\/news\/seminario_2015-01_small.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 537758,
+		"inputAbbreviatedPath": "\/build\/img\/media\/news\/seminario_2015-01_small.jpg",
+		"outputAbbreviatedPath": "\/build\/img\/media\/news\/seminario_2015-01_small.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/build\/img\/media\/thumbnails\/40-anos.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -2461,11 +1628,22 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/build\/img\/top_web-mob.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 30708,
+		"inputAbbreviatedPath": "\/build\/img\/top_web-mob.jpg",
+		"outputAbbreviatedPath": "\/build\/img\/top_web-mob.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/build\/img\/top_web.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 168959,
+		"initialSize": 38150,
 		"inputAbbreviatedPath": "\/build\/img\/top_web.jpg",
 		"outputAbbreviatedPath": "\/build\/img\/top_web.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -2541,6 +1719,15 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/media.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/build\/news\/seminario-ttc.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/build\/news\/seminario-ttc.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -3133,6 +2320,17 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
 		},
+	"\/src\/news\/seminario-ttc.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/news\/seminario-ttc.jade",
+		"outputAbbreviatedPath": "\/build\/news\/seminario-ttc.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1,
+		"outputStyle": 0
+		},
 	"\/src\/pages\/contact.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
@@ -3669,10 +2867,6 @@
 			}
 		},
 	"jsLintFlags2": {
-		"ass": {
-			"active": 0,
-			"flagValue": -1
-			},
 		"bitwise": {
 			"active": 0,
 			"flagValue": -1
@@ -3681,15 +2875,7 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"closure": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"continue": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"debug": {
+		"couch": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -3697,75 +2883,27 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"eqeq": {
+		"es6": {
 			"active": 0,
 			"flagValue": -1
 			},
-		"evil": {
+		"eval": {
 			"active": 0,
 			"flagValue": -1
 			},
-		"forin": {
+		"for": {
 			"active": 0,
 			"flagValue": -1
-			},
-		"indent": {
-			"active": 0,
-			"flagValue": 4
 			},
 		"maxlen": {
 			"active": 0,
 			"flagValue": 150
 			},
-		"newcap": {
-			"active": 0,
-			"flagValue": -1
-			},
 		"node": {
 			"active": 0,
 			"flagValue": -1
 			},
-		"nomen": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"plusplus": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"properties": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"regexp": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"rhino": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"sloppy": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"stupid": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"sub": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"todo": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"unparam": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"vars": {
+		"this": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -3866,7 +3004,9 @@
 	"typescriptAutoOutputPathStyle": 2,
 	"typescriptCreateDeclarationFile": 0,
 	"typescriptCreateSourceMap": 0,
+	"typescriptJSXMode": 0,
 	"typescriptMinifyOutput": 0,
+	"typescriptModuleResolutionType": 0,
 	"typescriptModuleType": 0,
 	"typescriptNoImplicitAny": 0,
 	"typescriptPreserveConstEnums": 0,
