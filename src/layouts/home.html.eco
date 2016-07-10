@@ -11,18 +11,20 @@
         <!-- <link rel='stylesheet' href='/css/rupture.css' type='css/stylesheet'> -->
         <script src='/js/vendor/jquery.js'></script>
         <script src='/slick/slick.min.js'></script>
-        <link rel='stylesheet' href='/css/main-min.css' type='text/css'>
+        <link rel='stylesheet' href='/css/main.css' type='text/css'>
         <link rel='stylesheet' href='/slick/slick.css' type='text/css'>
         <link rel='stylesheet' href='/slick/slick-theme.css' type='text/css'>
     </head>
 
     <body>
         <span>include header</span>
+        <%- @partial('header') %>
 
         <%- @content %>
         <p><%- @document.title %></p>
+        <%- @partial('links') %>
         <span>include links</span>
 
-        <script src='/js/slick-init-min.js'></script>
+        <script src='/js/slick-init.js'></script>
     </body>
 </html>
