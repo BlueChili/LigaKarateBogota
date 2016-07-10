@@ -15,16 +15,10 @@
         <link rel='stylesheet' href='/slick/slick.css' type='text/css'>
         <link rel='stylesheet' href='/slick/slick-theme.css' type='text/css'>
     </head>
-
     <body>
-        <span>include header</span>
         <%- @partial('header') %>
-
         <%- @content %>
-        <p><%- @document.title %></p>
         <%- @partial('links') %>
-        <span>include links</span>
-
         <script src='/js/slick-init.js'></script>
     </body>
 </html>
