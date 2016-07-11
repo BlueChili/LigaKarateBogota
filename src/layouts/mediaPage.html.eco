@@ -22,8 +22,7 @@
         <div class='content-container'>
           <%- @partial('nav-sidebar') %>
           <div class='card-container'>
-        <script src='/slick/slick.min.js'></script>
-		        <%- @content %>
+            <%- @content %>
           </div>
         </div>
       </div>
