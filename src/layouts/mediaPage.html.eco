@@ -31,13 +31,3 @@
         <%- @partial('links') %>
     </body>
 </html>
-
-<!-- block content
-  .master-container
-    .headline
-      block headline
-
-    .content-container
-      include nav-sidebar
-      .card-container
-        block galleries -->
