@@ -8,7 +8,7 @@ docpadConfig = {
     site:
       navBar:
         about:
-          href: '/about.html/'
+          href: '/about.html'
           label: '¿Quiénes somos?'
           section: 'about'
         history:
