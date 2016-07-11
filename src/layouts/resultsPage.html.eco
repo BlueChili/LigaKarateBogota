@@ -10,25 +10,24 @@
         <title><%= @document.title %></title>
         <!-- <link rel='stylesheet' href='/css/rupture.css' type='css/stylesheet'> -->
         <script src='/js/vendor/jquery.js'></script>
+        <script src='//ajax.googleapis.com/ajax/libs/angularjs/1.3.16/angular.min.js'></script>
+        <script src='/js/results/app.js'></script>
         <script src='/slick/slick.min.js'></script>
 		<link rel='stylesheet' href='/css/results.css' type='text/css'>
         <link rel='stylesheet' href='/css/main.css' type='text/css'>
-        <link rel='stylesheet' href='/slick/slick.css' type='text/css'>
-        <link rel='stylesheet' href='/slick/slick-theme.css' type='text/css'>
     </head>
     <body>
         <%- @partial('header') %>
 		<div class='master-container'>
 			<div class='headline'><%- @document.headline %></div>
 			<div class='content-wrapper'>
-				<main class='results-wrapper'>
+                <main class='results-wrapper ng-scope' ng-app='resultsDisplay'>
+                <%- @content %>
 				</main>
 				<%- @partial('nav-sidebar') %>
 			</div>
 		</div>
-        <%- @content %>
         <%- @partial('links') %>
-        <script src='/js/slick-init.js'></script>
     </body>
 </html>
 
