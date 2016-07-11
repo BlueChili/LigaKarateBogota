@@ -19,7 +19,9 @@
     <body>
         <%- @partial('header') %>
 		<div class='master-container'>
-			<div class='headline'><%- @document.headline %></div>
+			<div class='headline'>
+                <h1><%- @document.headline %></h1>
+            </div>
 			<div class='content-wrapper'>
                 <main class='results-wrapper ng-scope' ng-app='resultsDisplay'>
                 <%- @content %>
