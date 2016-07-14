@@ -18,6 +18,11 @@
     </head>
     <body>
         <%- @partial('header') %>
+        <% if @document.headline: %>
+            <div class='headline'>
+                <h1><%- @document.headline %></h1>
+            </div>
+        <% end %>
 		<div class='article-container'>
 			<%- @partial('nav-sidebar') %>
 			<article>

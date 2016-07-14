@@ -4,7 +4,10 @@
 # Define the DocPad Configuration
 docpadConfig = {
 	# ...
+  port: 3000
   templateData:
+    getArticles: ->
+      @getCollection('html').findAllLive(type: 'news').sortArray(name:-1)
     site:
       navBar:
         about:
@@ -31,6 +34,14 @@ docpadConfig = {
           href: '/clubs.html'
           label: 'Clubes Afiliados'
           section: 'clubs'
+  plugins:
+    minicms:
+      secret: 'Do camino vacío'
+      auth: (login, password, callback) ->
+        if login is 'admin' and password is 'password'
+          callback null, true
+        else
+          callback "Invalid login or password.", false
 }
 
 # Export the DocPad Configuration
