@@ -16,7 +16,7 @@ html lang: 'es', ->
     text @partial('header')
     div '.master-container', ->
       div '.headline', ->
-        @document.headline
+        h1 @document.headline
       div '.content-container', ->
         text @partial('nav-sidebar')
         div '.card-container', ->

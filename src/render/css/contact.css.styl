@@ -1,145 +1,110 @@
 .contact-container
-	display flex
-	flex-direction column
-	flex 100%	
-	.headline
-		display flex
-		flex-flow row
-		justify-content center
-		margin-bottom 1em
-		h1
-			font-size 3em
-			padding 0.5em
-	.contact-body
-		display flex
-		flex-flow column
-		margin-top 1em
-		form
-			display flex
-			flex-direction column
-			padding-top 1em
-			margin-bottom 3em
-			box-shadow 1px 2px 5px #888
-			padding-bottom 2em
-			label, input, textarea
-				display flex
-			label
-				font-family 'Raleway'
-				flex auto auto 100%
-				flex-flow column
-				font-size 1.2em
-				margin-bottom 1em
-			input
-				font-size 1em
-				height 2.5em
-				font-family 'Lato'
-				font-weight 300
-				margin-top 0.3em
-			textarea
-				height 9em
+  display flex
+  flex-direction column
+  flex 100% 
+  .headline
+    display flex
+    flex-flow row
+    justify-content center
+    margin-bottom 1em
+    h1
+      font-size 3em
+      padding 0.5em
+  .contact-body
+    display flex
+    flex-flow column
+    margin-top 1em
+    form
+      display flex
+      flex-direction column
+      padding-top 1em
+      margin-bottom 3em
+      box-shadow 1px 2px 5px #888
+      padding-bottom 2em
+      label, input, textarea
+        display flex
+      label
+        font-family 'Raleway'
+        flex auto auto 100%
+        flex-flow column
+        font-size 1.2em
+        margin-bottom 1em
+      input
+        font-size 1em
+        height 2.5em
+        font-family 'Lato'
+        font-weight 300
+        margin-top 0.3em
+      textarea
+        height 9em
 
-			[type='submit']
-				width 7.5em
-				height 3.8em
-				border 0px solid white
-				background #f7f406
-				text-transform uppercase
-				font-family 'Raleway'
-				font-weight 400
-				transition background 0.5s
-				transition-timing-function cubic-bezier(0.7, 0, 0.3, 1)
-				align-self flex-end
-				margin-right 0.5em
-				&:hover
-					background #41CC7F
+      [type='submit']
+        width 7.5em
+        height 3.8em
+        border 0px solid white
+        background #f7f406
+        text-transform uppercase
+        font-family 'Raleway'
+        font-weight 400
+        transition background 0.5s
+        transition-timing-function cubic-bezier(0.7, 0, 0.3, 1)
+        align-self flex-end
+        margin-right 0.5em
+        &:hover
+          background #41CC7F
 
-			.contact-info
-				display flex
-				flex-flow column
-				label
-					display flex
-					flex-direction column
-					input
-						display flex
-						margin 10px 0
-		
+      .contact-info
+        display flex
+        flex-flow column
+        label
+          display flex
+          flex-direction column
+          input
+            display flex
+            margin 10px 0
+    
 
-.nav-full
-	font-size 1rem
-	display flex
-	flex-flow column
-	text-align center
-	z-index 1
-	order 1
-	a
-		text-decoration none
-		font-size 1.3em
-		padding 0.3em .5em
-		transition color, background 0.5s
-		background rgba(255, 255, 40, 0)
-		&:hover
-			color white
-			background rgba(213, 15, 23, 1)
-	a.current-area
-			border-bottom 3px #D40221 solid
-	.icon-facebook
-		display flex
-		background none
-		color #273C7B
-		align-self center
-		text-align center
-		font-size 1.8em
-		width 1em
-		padding 0.2em
-		transition color 1s, background 1s
-	@media screen and (min-width 601px)
-		border-right 1px solid #67a9ef
-		width 22.3em
-		margin-right 1em
-
-
-		
 .success
-	display flex
-	flex-flow row nowrap
-	justify-content center
-	font-size 3em
-	color #41CC7F
-	
+  display flex
+  flex-flow row nowrap
+  justify-content center
+  font-size 3em
+  color #41CC7F
+  
 .success-container
-	p
-		font-size 1.4em
-		margin-top 0
+  p
+    font-size 1.4em
+    margin-top 0
 
 @media screen and (min-width 601px)
-	.contact-container
-		flex-direction column
-		width 68em
-		margin 0 auto
-		.contact-body
-			display flex
-			flex-flow row nowrap
-			form
-				order 1
-				width 100%
-				// max-width 50em
-				.contact-info
-					flex-flow row
-					margin 0.8em 0
-					label
-						flex 100%
-						margin auto 1em 0em
-						input
-							display flex
-							margin-top 0.2em
-				label
-					margin 0.8em 1em
-					input
-						margin-top 0.2em
-					textarea
-						margin-top 0.8em
-				
-				[type='submit']
-					text-align center
-					padding-left 28px
-					margin-right 1.3em
+  .contact-container
+    flex-direction column
+    width 68em
+    margin 0 auto
+    .contact-body
+      display flex
+      flex-flow row nowrap
+      form
+        order 1
+        width 100%
+        // max-width 50em
+        .contact-info
+          flex-flow row
+          margin 0.8em 0
+          label
+            flex 100%
+            margin auto 1em 0em
+            input
+              display flex
+              margin-top 0.2em
+        label
+          margin 0.8em 1em
+          input
+            margin-top 0.2em
+          textarea
+            margin-top 0.8em
+        
+        [type='submit']
+          text-align center
+          padding-left 28px
+          margin-right 1.3em
