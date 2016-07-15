@@ -4,6 +4,9 @@
 # Define the DocPad Configuration
 docpadConfig = {
 	# ...
+  watchOptions:
+    catchupDelay: 0
+    preferredMethods: ['watchFile', 'watch']
   port: 3000
   templateData:
     getArticles: ->
