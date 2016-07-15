@@ -42,6 +42,40 @@ docpadConfig = {
           callback null, true
         else
           callback "Invalid login or password.", false
+      models: [
+        name: ['Artículo', 'Artículos']
+        list:
+          fields: [
+            name: 'Title'
+            value: -> @title
+          ]
+          data: ->
+            filter = type: 'news'
+            return @docpad.getCollection('html').findAllLive(filter).sortArray(date: -1)
+        form:
+          url: -> "/news/#{@slugify @title}"
+          ext: 'html.md'
+          meta:
+            title: -> @title
+            type: 'news'
+            layout: 'article'
+            # tags: -> if @tags instanceof Array then @tags else []
+            date: -> new Date(@date)
+          content: -> @content
+          components: [
+            field: 'title'
+            type: 'text'
+          ,
+            field: 'date'
+            type: 'date'
+          ,
+            field: 'content'
+            type: 'wysiwyg'
+            valydate: (val) -> typeof(val) is 'string' and val.length > 0
+            sanitize: (val) -> return val?.trim()
+          ]
+      ,
+      ]
 }
 
 # Export the DocPad Configuration
