@@ -9,7 +9,23 @@ docpadConfig = {
     catchupDelay: 0
     preferredMethods: ['watchFile', 'watch']
   port: 3000
+  events:
+    extendCollections: (opts) ->
+        @docpad.getCollection('files').on('add', (document) ->
+            document.setMetaDefaults(standalone:true))
   templateData:
+    getCustomStyles: (layout) ->
+      switch layout
+        when 'article' then ['/css/article.css']
+        when 'contactPage' then ['/css/contact.css']
+        when 'mediaPage' then ['/css/media.css']
+        when 'page' then ['/css/articles.css']
+        when 'resultsPage' then ['/css/results.css']
+        when 'home' then ['/slick/slick.css', '/slick/slick-theme.css']
+    getHeadScripts: (layout) ->
+      switch layout
+        when 'home' then ['/slick/slick.min.js']
+        when 'resultsPage' then ['//ajax.googleapis.com/ajax/libs/angularjs/1.3.16/angular.min.js', '/js/results/app.js']
     getArticles: ->
       @getCollection('html').findAllLive(type: 'news').sortArray(name:-1)
     site:
@@ -39,6 +55,9 @@ docpadConfig = {
           label: 'Clubes Afiliados'
           section: 'clubs'
   plugins:
+    copy:
+      raw:
+        src: 'raw'
     minicms:
       secret: 'Do camino vacío'
       auth: (login, password, callback) ->
