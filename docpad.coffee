@@ -5,6 +5,7 @@
 docpadConfig = {
 	# ...
   watchOptions:
+    regenerateDelay: 0
     catchupDelay: 0
     preferredMethods: ['watchFile', 'watch']
   port: 3000
