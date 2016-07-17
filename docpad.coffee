@@ -13,6 +13,7 @@ docpadConfig = {
     extendCollections: (opts) ->
         @docpad.getCollection('files').on('add', (document) ->
             document.setMetaDefaults(standalone:true))
+
   templateData:
     getCustomStyles: (layout) ->
       switch layout
@@ -26,6 +27,10 @@ docpadConfig = {
       switch layout
         when 'home' then ['/slick/slick.min.js']
         when 'resultsPage' then ['//ajax.googleapis.com/ajax/libs/angularjs/1.3.16/angular.min.js', '/js/results/app.js']
+    getOgType: (layout) ->
+      if layout is 'home' then 'website' else 'article'
+    getPreparedDescription: (description) ->
+      if description then description else 'Página oficial de la Liga de Karate Do de Bogotá'
     getArticles: ->
       @getCollection('html').findAllLive(type: 'news').sortArray(name:-1)
     site:
@@ -54,6 +59,7 @@ docpadConfig = {
           href: '/clubs.html'
           label: 'Clubes Afiliados'
           section: 'clubs'
+
   plugins:
     copy:
       raw:
