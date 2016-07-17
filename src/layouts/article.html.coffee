@@ -7,6 +7,6 @@ cms:
 div '.master-container', ->
   h1 '.at-headline', -> @document.cms.title
   div '.content-wrapper', ->
-    text @partial('nav-sidebar')
+    text @partial('navigation')
     main '.at-body', ->
       text @content

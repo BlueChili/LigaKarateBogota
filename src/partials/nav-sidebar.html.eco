@@ -1,6 +1,0 @@
-<nav class='nav-full'>
-  <% for item, data of @site.navBar: %>
-  	<a <%- "class='current-area'" if @document.siteArea is data.section %>href='<%- data.href %>'><%- data.label %></a>
-  <% end %>
-  <!-- <a class='icon-facebook' href='https://www.facebook.com/ligakaratebogota?fref=ts'></a> -->
-</nav>

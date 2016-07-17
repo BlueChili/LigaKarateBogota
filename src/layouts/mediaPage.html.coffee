@@ -5,6 +5,6 @@ div '.master-container', ->
   div '.headline', ->
     h1 @document.headline
   div '.content-container', ->
-    text @partial('nav-sidebar')
+    text @partial('navigation')
     div '.card-container', ->
       @content

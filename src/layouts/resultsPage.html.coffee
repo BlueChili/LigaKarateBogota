@@ -7,4 +7,4 @@ div '.master-container', ->
   div '.content-wrapper', ->
     main '.results-wrapper', 'ng-app': 'resultsDisplay', ->
       text @content
-    text @partial('nav-sidebar')
+    text @partial('navigation')
