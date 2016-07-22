@@ -7,3 +7,4 @@ js/galleria-1.4.2.js
 *.sublime-workspace
 out
 node_modules
+mock__out
