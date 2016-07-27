@@ -5,3 +5,4 @@ bower_components/
 deprecated/
 js/galleria-1.4.2.js
 *.sublime-workspace
+mock__out/**
