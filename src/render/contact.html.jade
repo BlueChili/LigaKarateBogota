@@ -1,0 +1,19 @@
+---
+title: 'Contacto'
+headline: 'Contacto'
+layout: 'contactPage'
+siteArea: 'contact'
+---
+
+form(action='//formspree.io/publicidad@ligakaratebogota.com' method='POST')
+  .contact-info
+    label &nbsp;&nbsp;Nombre
+      input(type='text' name='name')
+    label &nbsp;&nbsp;Asunto
+      input(type='text' name='_subject')
+  label &nbsp;&nbsp;Correo
+    input(type='email' name='_replyto')
+  label &nbsp;&nbsp;Mensaje
+    textarea(name='message')
+  input.submit(type='submit' value='enviar')
+  input(type='hidden' name='_next' value='//ligakaratebogota.com/success.html')

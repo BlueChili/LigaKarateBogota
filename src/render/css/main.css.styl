@@ -1,0 +1,272 @@
+@import 'reset.inc'
+@import 'base-text.inc'
+@import 'fontello.inc'
+
+
+body
+  font-family 'Lato'
+  color #333
+  background rgb(250,250,250)
+
+header
+  display flex
+  justify-content center
+  padding 2rem auto
+  margin 2rem auto
+
+a
+  color black
+// Color definitions
+
+green_primary = #a3c81c
+green_secondary = #668200
+blue_primary = #186184
+blue_secondary = #0c4c6c
+purple_primary = #631a8b
+purple_secondary = #3c045b
+red_primary = #D40221
+red_secondary = #A4021E
+
+/*-------------------------
+ Home page styles:
+ - Left navigation bar
+ - Central fixed section
+ - Right column news feed
+--------------------------*/
+
+header
+  background url(../img/top_web.jpg) center
+  background-size cover
+  height 130px
+  width 100%
+  margin 0
+  box-shadow 0px 3px 10px rgba(109, 116, 139, 0.9)
+  margin-bottom 2em
+  @media screen and (max-width 736px), (min-device-pixel-ratio: 2)
+    background url(../img/top_web-mob.jpg)
+    background-size cover
+  a
+    display flex
+    align-items center
+    flex-flow row
+    text-decoration none
+    margin 0
+    padding 0
+
+    .header-title
+      color white
+      font-family 'Helvetica', 'Arial', 'Raleway'
+      font-weight 600
+      text-shadow #333333 1px 3px 2px
+
+    .logo
+      height 8em
+      width auto
+      margin auto 2em
+
+article
+  font-size 1rem
+  width auto
+  border-bottom 2px solid red_primary
+  padding-bottom 1em
+  margin-bottom 1em
+  h1
+    font-family 'Raleway'
+    font-size 3em
+    padding 0.5em
+  img
+    width 90%
+    margin 0 5%
+  p
+    font-size 1.3em
+    margin 1em 10%
+  a
+    color black
+    text-decoration none
+
+.container
+  display flex
+  width 98%
+  margin -2em auto 0
+  flex-flow row wrap
+  align-items base-line
+  box-shadow 0px 0px 3px #939CBB
+
+.about, .info, .news .article
+  display flex
+  flex 1 1 none
+  // border 1px solid black
+
+.about
+  flex-flow column
+  flex 1 1 1em
+  a
+    font-size 1.3em
+    font-weight 300
+    padding 0.5rem 1rem
+    background red_primary
+    text-decoration none
+    color white
+    font-weight 300
+  a:nth-child(even)
+    border-top 1px solid #fff
+    border-bottom 1px solid #fff
+  a:hover
+    background red_secondary
+  .icon-facebook
+    display flex
+    background none
+    color #273C7B
+    align-self center
+    text-align center
+    font-size 1.8em
+    width 1em
+    padding 0.2em
+    transition color 1s, background 1s
+    &:hover
+      color white
+      background red_primary
+
+.info
+  flex-flow column
+  flex 1 1 1em
+  font-size 1rem
+  p, time
+    padding 0.4em 0.9em
+    font-size 1.1em
+  b, strong, i, em
+    font-size inherit
+  h2
+    font-family 'Raleway'
+    background red_primary
+    font-size 1.3rem
+    padding 0.5rem 1rem
+    color #ffffff
+    // border 1px solid white
+  ul
+    padding 1em
+    li
+      line-height 1.6em
+      font-size 1.1em
+  .ads
+    margin-top 1em
+    border 1px solid red
+    .ad
+      margin 1em
+      position relative
+      // height 200px
+      overflow none
+      img
+        width 100%
+        heigth auto
+      h2
+        position absolute
+        bottom 20px
+        right 10px
+
+.news
+  flex-flow row
+  flex 1 1 100%
+  h2
+    font-family 'Raleway'
+    color white
+    font-size 1.3rem
+    font-weight 100
+    background red_primary
+    padding 0.5rem 1rem
+    text-align center
+
+aside.footnote
+  border-top 2px  solid #F60F17
+
+.links
+  background #222
+  display flex
+  flex-flow row nowrap
+  font-size 1rem
+  height 5em
+  justify-content center
+  align-items center
+  margin-top 2em
+  box-shadow 0px 0px 2px 1px #888
+  a
+    display flex
+    color #fff
+    font-family 'Raleway'
+    font-size 1.5em
+    padding 1em
+    text-decoration none
+    text-transform uppercase
+    &:hover
+      background #888
+
+// Carousel "Slick"
+
+.single-item
+  height 14em
+  width 100%
+  margin 0 auto
+  // .slide
+  //  max-height 30em
+  //  background rgba(30,32,40, 1)
+  //  text-align center
+  img
+    // max-width 100%
+    height 14em
+    width auto
+    box-shadow 0px 0px 4px rgba(20,20,20, 0.3)
+    // margin 0 auto
+    // .feature
+    //  position relative
+    //  text-decoration none
+    //  color white
+    //  h3
+    //    font-size 2.5em
+    //    padding 0.2em
+    //  .feature-by-line
+    //    font-size 1em
+    //    text-align right
+//  position relative
+//  width 100%
+//  height 40vh
+//  overflow none
+//  .slide
+//    position relative
+//    top 0px
+//    left 0px
+//    display none
+    // .feature
+    //  position absolute
+    //  max-height 3em
+    //  padding 1em
+    //  left 2em
+    //  top 1em
+    //  color white
+    //  text-decoration none
+    //  background rgba(40,40,40, 0.6)
+    //  text-shadow 1px 1px 2px rgba(150,150,150, 0.8)
+    //  z-index 1000
+    //  h3
+    //    font-size 3em
+//    img
+//      width 100%
+//  .active-slide
+//    display block
+//
+// .arrows-container
+//  position absolute
+//  z-index 100
+//  width 100%
+//  color rgba(60,60,60, 0.6)
+//  margin-top 1em
+//  .icon-left-open, .icon-right-open
+//    position absolute
+//    font-size 2em
+//    margin 0 0.5em
+//  .icon-left-open
+//    top 0px
+//    left 0px
+//  .icon-right-open
+//    right 0px
+@import 'navbar.inc'
+@import 'media-queries.inc'
