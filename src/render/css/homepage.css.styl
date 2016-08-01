@@ -1,0 +1,53 @@
+.cs
+  position relative
+  width 100vw
+  height 45vw
+  background pink
+  white-space nowrap
+  overflow-x auto
+  overflow-y hidden
+  -webkit-scroll-snap-type mandatory
+  scroll-snap-type mandatory
+  -webkit-scroll-snap-destination 50% 50%
+  scroll-snap-destination 50% 50%
+
+.cs-logo
+  position fixed
+  z-index 2
+  top 2vw
+  left 2vw
+  height 9vw
+  width 9vw
+
+.cs-item
+  position relative
+  width 90vw
+  height 45vw
+
+.cs-item__img
+  width 90vw
+  height 45vw
+  -webkit-scroll-snap-coordinate 50% 50%
+  scroll-snap-coordinate 50% 50%
+
+.cs-item__info
+  padding 3vw
+  width 100%
+  position absolute
+  display flex
+  flex-flow column wrap
+  bottom 0
+  background hsla(223,38,18,76%)
+  transition background 0.4s ease-out
+  &:hover
+    background hsla(223,38,8,90%)
+
+.cs-item__title
+  color white
+  padding-bottom 12px
+
+.cs-item__description
+  font-size 18px
+  color white
+  width 10em
+  font-family 'Raleway'

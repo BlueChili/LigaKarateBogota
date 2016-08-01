@@ -1,0 +1,40 @@
+.hn
+  padding 4em 0
+  padding-top 5em
+  display flex
+  justify-content space-around
+  align-items center
+
+.hn-link
+  position relative
+  padding 0 0.5em
+  font-size 20px
+  font-weight 400
+  text-decoration none
+  color #D40221
+  &:focus::after,
+  &:hover::after,
+  &:hover::before,
+  &:focus::before
+    content ''
+    height 2px
+    width 100%
+    background red
+    position absolute
+    right: 0
+    z-index: 1000
+    animation hn-hover 400ms ease-out 0s running
+  &:focus::after,
+  &:hover::after
+    top 1.4em
+    transform-origin right
+  &:hover::before,
+  &:focus::before
+    top -0.4em
+    transform-origin left
+
+@keyframes hn-hover
+  0%
+    transform scaleX(0)
+  100%
+    transform scaleX(1)

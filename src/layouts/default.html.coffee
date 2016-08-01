@@ -20,9 +20,12 @@ html lang: 'es', ->
     link rel:'stylesheet', href:'/css/main.css', type:'text/css'
     for styles in @getCustomStyles(@document.layout)
       link rel:'stylesheet', href: styles, type:'text/css'
+    link rel:'stylesheet', href: 'css/homepage.css'
+    link rel:'stylesheet', href: 'css/hp-navigation.css'
+
 
   body ->
-    text @partial('header')
+    unless @document.layout is 'home' then text @partial('header')
     text @content
     text @partial('links')
     text @getBlock('scripts').toHTML()
