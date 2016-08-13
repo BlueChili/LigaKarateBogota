@@ -13,7 +13,9 @@ html lang: 'es', ->
     meta property: 'og:type', content: @getOgType(@document.layout)
     meta property: 'og:locale', content: 'es_CO'
     meta property: 'og:description', content: @getPreparedDescription(@document.cms?.description?)
+    link rel: 'stylesheet', href:'/css/fontello.css'
     script src:'/js/vendor/jquery.js'
+    script src:'/js/hp-carousel.js'
     if @getHeadScripts(@document.layout)?
       for url in @getHeadScripts(@document.layout)
         script src: url

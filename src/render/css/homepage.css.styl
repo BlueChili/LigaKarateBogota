@@ -10,6 +10,7 @@
   scroll-snap-type mandatory
   -webkit-scroll-snap-destination 50% 50%
   scroll-snap-destination 50% 50%
+  scroll-behavior smooth
 
 .cs-logo
   position fixed
@@ -21,11 +22,11 @@
 
 .cs-item
   position relative
-  width 90vw
+  width 100vw
   height 45vw
 
 .cs-item__img
-  width 90vw
+  width 100%
   height 45vw
   -webkit-scroll-snap-coordinate 50% 50%
   scroll-snap-coordinate 50% 50%
@@ -51,3 +52,20 @@
   color white
   width 10em
   font-family 'Raleway'
+
+.cs-item__imgFilter
+  background linear-gradient(135deg, red,black 70%, black)
+  mix-blend-mode screen
+  width 100%
+  height 46vw
+  // margin 0
+  position absolute
+  top -44vw
+  &:after
+    content ''
+    width 100%
+    height 100%
+    position absolute
+    mix-blend-mode screen
+    background linear-gradient(20deg, rgba(#ff0, 0.68), rgba(#000, 0.1), rgba(#000, 0))
+    // background linear-gradient(20deg, yellow, black 50%, black)
