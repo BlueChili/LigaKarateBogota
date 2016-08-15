@@ -33,3 +33,4 @@ html lang: 'es', ->
     text @content
     text @partial('links')
     text @getBlock('scripts').toHTML()
+    if @document.layout is 'home' then script src: '//s3-us-west-2.amazonaws.com/s.cdpn.io/4273/scroll-snap-polyfill.js'
