@@ -15,6 +15,8 @@ html lang: 'es', ->
     meta property: 'og:description', content: @getPreparedDescription(@document.cms?.description?)
     link rel: 'stylesheet', href:'/css/fontello.css'
     script src:'/js/vendor/jquery.js'
+    script src:'//cdn.jsdelivr.net/jquery.scrollto/2.1.2/jquery.scrollTo.min.js'
+    script src:'https://cdn.jsdelivr.net/lodash/4.15.0/lodash.min.js'
     script src:'/js/hp-carousel.js'
     if @getHeadScripts(@document.layout)?
       for url in @getHeadScripts(@document.layout)
