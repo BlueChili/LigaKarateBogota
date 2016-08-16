@@ -1,6 +1,6 @@
 # DocPad Configuration File
 # http://docpad.org/docs/config
-
+layoutCss = require('./layout-css.coffee')
 # Define the DocPad Configuration
 docpadConfig = {
 	# ...
@@ -15,17 +15,10 @@ docpadConfig = {
             document.setMetaDefaults(standalone:true))
 
   templateData:
-    getCustomStyles: (layout) ->
-      switch layout
-        when 'article' then ['/css/article.css']
-        when 'contactPage' then ['/css/contact.css']
-        when 'mediaPage' then ['/css/media.css']
-        when 'page' then ['/css/articles.css']
-        when 'resultsPage' then ['/css/results.css']
-        when 'home' then ['/slick/slick.css', '/slick/slick-theme.css']
+    getCustomStyles: layoutCss
     getHeadScripts: (layout) ->
       switch layout
-        when 'home' then ['/slick/slick.min.js']
+        when 'home' then ['/js/hp-carousel.js']
         when 'resultsPage' then ['//ajax.googleapis.com/ajax/libs/angularjs/1.3.16/angular.min.js', '/js/results/app.js']
     getOgType: (layout) ->
       if layout is 'home' then 'website' else 'article'
