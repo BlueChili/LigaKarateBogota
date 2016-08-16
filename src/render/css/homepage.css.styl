@@ -1,8 +1,20 @@
 .cs
   position relative
+
+.cs-logo
+  position absolute
+  z-index 2
+  top 2vw
+  left 2vw
+  height 9vw
+  width 9vw
+  filter drop-shadow(2px 2px 4px rgba(#fff 0.55))
+
+.cs-itemWrapper
+  position relative
   width 100vw
   height 45vw
-  background pink
+  background rgba(#0d111c 90%)
   white-space nowrap
   overflow-x auto
   overflow-y hidden
@@ -11,15 +23,6 @@
   -webkit-scroll-snap-destination 50% 50%
   scroll-snap-destination 50% 50%
   scroll-behavior smooth
-
-.cs-logo
-  position fixed
-  z-index 2
-  top 2vw
-  left 2vw
-  height 9vw
-  width 9vw
-  filter drop-shadow(2px 2px 4px rgba(#fff 0.55))
 
 .cs-item
   position relative
@@ -31,19 +34,18 @@
   height 45vw
   object-fit cover
   object-position 50% 20%
-  // filter grayscale(100%)
+  vertical-align top
   -webkit-scroll-snap-coordinate 50% 50%
   scroll-snap-coordinate 50% 50%
 
 .cs-item__info
   padding 3vw
   width 100%
+  vertical-align bottom
   position absolute
-  display flex
-  flex-flow column wrap
-  bottom 0
+  left 0
+  bottom -44vw
   background rgba(#1D222A 76%)
-  // background hsla(223,38,18,76%)
   transition background 0.4s ease-out
   &:hover
     background rgba(#0d111c 90%)
@@ -59,12 +61,15 @@
   font-family 'Raleway'
 
 .cs-item__imgFilter
-  background linear-gradient(to bottom, rgba(#f00 0.2), transparent 90%), linear-gradient(to right, rgba(#f00 0.62), transparent 40%), linear-gradient(130deg, rgba(#f00 0.71), transparent), linear-gradient(50deg, yellow, rgba(#ff0, 0.7) 50%, transparent)
+  // background linear-gradient(to bottom, rgba(#f00 0.2), transparent 90%), linear-gradient(to right, rgba(#f00 0.62), transparent 40%), linear-gradient(130deg, rgba(#f00 0.71), transparent), linear-gradient(50deg, yellow, rgba(#ff0, 0.7) 50%, transparent)
+  background url('/img/gradients-pure.png')
+  background-size cover
   mix-blend-mode multiply
   width 100%
   height 46vw
   position absolute
-  top -44vw
+  top 0
+  left 0
 
 .cs-controls
   display flex

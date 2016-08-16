@@ -1,7 +1,7 @@
 window.onload = () ->
   isFF = navigator.userAgent.toLowerCase().indexOf('firefox') > -1
   slides = $ '.cs-item'
-  carousel = $ '.cs'
+  carousel = $ '.cs-itemWrapper'
   controls = $ '.cs-controlIcons'
   carouselScrollTicking = false
   lastKnownScroll = 0
