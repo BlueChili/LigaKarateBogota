@@ -17,15 +17,12 @@ html lang: 'es', ->
     script src:'/js/vendor/jquery.js'
     script src:'//cdn.jsdelivr.net/jquery.scrollto/2.1.2/jquery.scrollTo.min.js'
     script src:'https://cdn.jsdelivr.net/lodash/4.15.0/lodash.min.js'
-    script src:'/js/hp-carousel.js'
     if @getHeadScripts(@document.layout)?
       for url in @getHeadScripts(@document.layout)
         script src: url
     link rel:'stylesheet', href:'/css/main.css', type:'text/css'
     for styles in @getCustomStyles(@document.layout)
       link rel:'stylesheet', href: styles, type:'text/css'
-    link rel:'stylesheet', href: 'css/homepage.css'
-    link rel:'stylesheet', href: 'css/hp-navigation.css'
 
 
   body ->
