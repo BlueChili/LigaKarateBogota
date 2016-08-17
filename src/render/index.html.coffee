@@ -3,37 +3,19 @@ title: "Liga de Karate de Bogotá"
 layout: "home"
 ---
 
+images = ["/img/carousel/resultados-superate-2015.jpg", "/img/media/news/seminario_2015-01_small.jpg", "/img/carousel/riohacha-1.jpg", "/img/campeona-copy.jpg"]
+
 div '.cs', ->
   img '.cs-logo', src: '/img/logo.png'
   div '.cs-itemWrapper', ->
-    a '.cs-item', href: "/results.html", ->
-      span '.cs-item__imgWrapper', ->
-        img '.cs-item__img', src: "/img/carousel/resultados-superate-2015.jpg"
-        div '.cs-item__imgFilter', ->
-      span '.cs-item__info', ->
-        h1 '.cs-item__title', 'Lorem ipsum'
-        span '.cs-item__description', 'inconsolata Vivamus luctus urna sed urna ultricies ac tempor dui sagittis. In condimentum facilisis porta. Sed nec diam eu diam mattis.'
-    a '.cs-item', href: "/news/seminario-ttc.html", ->
-      span '.cs-item__imgWrapper', ->
-        img '.cs-item__img', src: "/img/media/news/seminario_2015-01_small.jpg"
-        div '.cs-item__imgFilter', ->
-      span '.cs-item__info', ->
-        h1 '.cs-item__title', 'Lorem ipsum'
-        span '.cs-item__description', 'inconsolata Vivamus luctus urna sed urna ultricies ac tempor dui sagittis. In condimentum facilisis porta. Sed nec diam eu diam mattis.'
-    a '.cs-item', href: "/results.html", ->
-      span '.cs-item__imgWrapper', ->
-        img '.cs-item__img', src: "/img/carousel/riohacha-1.jpg"
-        div '.cs-item__imgFilter', ->
-      span '.cs-item__info', ->
-        h1 '.cs-item__title', 'Lorem ipsum'
-        span '.cs-item__description', 'inconsolata Vivamus luctus urna sed urna ultricies ac tempor dui sagittis. In condimentum facilisis porta. Sed nec diam eu diam mattis.'
-    a '.cs-item', href: "#", ->
-      span '.cs-item__imgWrapper', ->
-        img '.cs-item__img', src: "/img/campeona-copy.jpg"
-        div '.cs-item__imgFilter', ->
-      span '.cs-item__info', ->
-        h1 '.cs-item__title', 'Lorem ipsum'
-        span '.cs-item__description', 'inconsolata Vivamus luctus urna sed urna ultricies ac tempor dui sagittis. In condimentum facilisis porta. Sed nec diam eu diam mattis.'
+    for image in images
+      a '.cs-item', href: "#", ->
+        span '.cs-item__imgWrapper', ->
+          img '.cs-item__img', src: image
+          div '.cs-item__imgFilter', ->
+        span '.cs-item__info', ->
+          h1 '.cs-item__title', 'Lorem ipsum'
+          span '.cs-item__description', 'inconsolata Vivamus luctus urna sed urna ultricies ac tempor dui sagittis. In condimentum facilisis porta. Sed nec diam eu diam mattis.'
 
 ul '.cs-controls', ->
   li class:'cs-controlIcons icon-circle'
