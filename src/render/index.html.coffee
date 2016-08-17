@@ -16,6 +16,8 @@ div '.cs', ->
         span '.cs-item__info', ->
           h1 '.cs-item__title', 'Lorem ipsum'
           span '.cs-item__description', 'inconsolata Vivamus luctus urna sed urna ultricies ac tempor dui sagittis. In condimentum facilisis porta. Sed nec diam eu diam mattis.'
+  i '.icon-angle-left', ''
+  i '.icon-angle-right', ''
 
 ul '.cs-controls', ->
   li class:'cs-controlIcons icon-circle'

@@ -1,14 +1,21 @@
 .hn
   padding 4em 0
-  padding-top 5em
+  padding-top 1em
   display flex
   flex-flow row wrap
   justify-content space-around
   align-items center
+  @media screen and (max-width: 768px)
+    padding 0
+    flex-flow column
+  @media screen and (max-width: 1366px)
+    padding 0
 
 .hn-icons
   font-size 22px
   color #D40221
+  @media screen and (max-width: 768px)
+    font-size 19px
 
 .hn-link
   position relative
@@ -30,14 +37,21 @@
     right: 0
     z-index: 1000
     animation hn-hover 400ms ease-out 0s running
-  &:focus::after,
-  &:hover::after
-    top 1.5em
-    transform-origin right
+    @media screen and (max-width: 768px)
+      height 1px
   &:hover::before,
   &:focus::before
     top -0.4em
     transform-origin left
+    @media screen and (max-width: 768px)
+      top -0.2em
+  &:focus::after,
+  &:hover::after
+    top 1.5em
+    transform-origin right
+  @media screen and (max-width: 768px)
+    font-size 16px
+    margin 0.3em
 
 @keyframes hn-hover
   0%
