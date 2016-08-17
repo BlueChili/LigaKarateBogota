@@ -9,6 +9,7 @@ window.onload = () ->
   lastKnownScroll = 0
 
   leftControl.on 'click', () ->
+    clearInterval csAutoplay
     for el, i in slides
       if Math.abs(el.getBoundingClientRect().left) < 1
         target = i - 1
@@ -16,6 +17,7 @@ window.onload = () ->
         return moveToSlide slides[target]
 
   rightControl.on 'click', () ->
+    clearInterval csAutoplay
     for el, i in slides
       if Math.abs(el.getBoundingClientRect().left) < 1
         target = i + 1
@@ -24,6 +26,7 @@ window.onload = () ->
 
   controls.map (i, el) ->
     $(this).on 'click', ->
+      clearInterval csAutoplay
       cleanCircles()
       moveToSlide(slides[i])
 
@@ -48,8 +51,19 @@ window.onload = () ->
 
   scrollNoti = ()->
     for el, index in slides
-      if Math.abs el.getBoundingClientRect().left < 1 then activeCircle controls[index]
+      if Math.abs el.getBoundingClientRect().left < 1
+        cleanCircles()
+        activeCircle controls[index]
+    return
 
   carousel.on 'scroll', _.debounce(scrollNoti, 50)
+
+  csAutoplay = window.setInterval () ->
+    for el, i in slides
+      if Math.abs(el.getBoundingClientRect().left) < 1
+        target = i + 1
+        if target is slides.length then return moveToSlide slides[0]
+        return moveToSlide slides[target]
+  , 2000
 
   return
