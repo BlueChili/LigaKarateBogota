@@ -10,7 +10,7 @@ window.onload = () ->
   controls.map (i, el) ->
     $(this).on 'click', ->
       cleanCircles()
-      activeCircle $(this)
+      activeCircle el
       if isFF
         console.log isFF
         slides[i].scrollIntoView(false)
@@ -20,21 +20,20 @@ window.onload = () ->
       return
 
   cleanCircles = () ->
-    controls.map (index, c) ->
+    for c in controls
       if c.classList.contains 'icon-circle'
         c.classList.remove 'icon-circle'
         c.classList.add 'icon-circle-thin'
 
-  activeCircle = (e) ->
-    e.removeClass 'icon-circle-thin'
-    e.addClass 'icon-circle'
+  activeCircle = (el) ->
+    el.classList.remove 'icon-circle-thin'
+    el.classList.add 'icon-circle'
 
   scrollNoti = ()->
-    slides.map (i, el) ->
+    for el, index in slides
       if Math.abs el.getBoundingClientRect().left < 1
         cleanCircles()
-        controls[i].classList.remove 'icon-circle-thin'
-        controls[i].classList.add 'icon-circle'
+        activeCircle controls[index]
 
   carousel.on 'scroll', _.debounce(scrollNoti, 50)
 
