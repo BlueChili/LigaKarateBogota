@@ -18,7 +18,6 @@ docpadConfig = {
     getCustomStyles: layoutCss
     getHeadScripts: (layout) ->
       switch layout
-        when 'home' then ['/js/hp-carousel.js']
         when 'resultsPage' then ['//ajax.googleapis.com/ajax/libs/angularjs/1.3.16/angular.min.js', '/js/results/app.js']
     getOgType: (layout) ->
       if layout is 'home' then 'website' else 'article'
