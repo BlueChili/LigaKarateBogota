@@ -58,12 +58,26 @@ window.onload = () ->
 
   carousel.on 'scroll', _.debounce(scrollNoti, 50)
 
+  if CSS.supports("(-webkit-scroll-snap-type: mandatory) or (scroll-snap-type: mandatory)")
+    if isFF
+      $(window).bind "DOMMouseScroll mousewheel", (e) ->
+        if e.type is "mousewheel" or "DOMMouseScroll"
+          clearInterval csAutoplay
+          scrollNoti()
+        return
+    $(".cs").bind "DOMMouseScroll mousewheel", (e) ->
+      if e.type is "mousewheel" or "DOMMouseScroll"
+        clearInterval csAutoplay
+        scrollNoti()
+      return
+
   csAutoplay = window.setInterval () ->
     for el, i in slides
       if Math.abs(el.getBoundingClientRect().left) < 1
         target = i + 1
         if target is slides.length then return moveToSlide slides[0]
-        return moveToSlide slides[target]
+        moveToSlide slides[target]
+        break
   , 2000
 
   return

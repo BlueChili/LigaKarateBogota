@@ -23,6 +23,8 @@
   -webkit-scroll-snap-destination 50% 50%
   scroll-snap-destination 50% 50%
   scroll-behavior smooth
+  @supports not ((-webkit-scroll-snap-type: mandatory) or (scroll-snap-type: mandatory))
+    overflow-x hidden
 
 .cs-item
   position relative
