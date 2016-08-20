@@ -8,3 +8,4 @@ js/galleria-1.4.2.js
 mock__out/**
 out
 node_modules
+mock__out

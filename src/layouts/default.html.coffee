@@ -13,7 +13,10 @@ html lang: 'es', ->
     meta property: 'og:type', content: @getOgType(@document.layout)
     meta property: 'og:locale', content: 'es_CO'
     meta property: 'og:description', content: @getPreparedDescription(@document.cms?.description?)
+    link rel: 'stylesheet', href:'/css/fontello.css'
     script src:'/js/vendor/jquery.js'
+    script src:'//cdn.jsdelivr.net/jquery.scrollto/2.1.2/jquery.scrollTo.min.js'
+    script src:'https://cdn.jsdelivr.net/lodash/4.15.0/lodash.min.js'
     if @getHeadScripts(@document.layout)?
       for url in @getHeadScripts(@document.layout)
         script src: url
@@ -21,8 +24,9 @@ html lang: 'es', ->
     for styles in @getCustomStyles(@document.layout)
       link rel:'stylesheet', href: styles, type:'text/css'
 
+
   body ->
-    text @partial('header')
+    unless @document.layout is 'home' then text @partial('header')
     text @content
     text @partial('links')
     text @getBlock('scripts').toHTML()

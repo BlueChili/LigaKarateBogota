@@ -3,5 +3,5 @@ layout: 'default'
 ###
 
 text @content
-if @document.layout is 'home'
-  script src:'/js/slick-init.js'
+# script src: "/js/scroll-snap-polyfill.js"
+script src: '/js/hp-carousel.js'
