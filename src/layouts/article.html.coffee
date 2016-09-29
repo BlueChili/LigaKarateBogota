@@ -6,7 +6,7 @@ cms:
 
 div '.master-container', ->
   h1 '.at-headline', -> @document.cms.title
-  div '.content-wrapper', ->
+  div '.at-wrapper', ->
     text @partial('navigation')
     main '.at-body', ->
       text @content

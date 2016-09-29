@@ -27,29 +27,38 @@ ul '.cs-controls', ->
 
 nav '.hn', ->
   a '.hn-link', href: '/news', ->
-    text 'Noticias'
-    i class: 'hn-icons icon-newspaper'
+    span -> 
+      text 'Noticias'
+      i class: 'hn-icons icon-newspaper'
   a '.hn-link', href:'/about.html', ->
-    text 'La Liga'
-    i class: 'hn-icons icon-doc-text'
+    span -> 
+      text 'La Liga'
+      i class: 'hn-icons icon-doc-text'
   a '.hn-link', href: "/history.html", ->
-    text "Historia"
-    i class:'hn-icons icon-bank'
+    span ->
+      text "Historia"
+      i class:'hn-icons icon-bank'
   a '.hn-link', href: "/results.html", ->
-    text "Resultados Deportivos"
-    i class:'hn-icons icon-award'
+    span ->
+      text "Resultados Deportivos"
+      i class:'hn-icons icon-award'
   a '.hn-link', href: "/media.html", ->
-    text "Galerías"
-    i class:'hn-icons icon-camera-alt'
+    span ->
+      text "Galerías"
+      i class:'hn-icons icon-camera-alt'
   a '.hn-link', href: "/contact.html", ->
-    text "Contácto"
-    i class:'hn-icons icon-mail'
+    span ->
+      text "Contácto"
+      i class:'hn-icons icon-mail'
   a '.hn-link', href: "/clubs.html", ->
-    text "Clubes Afiliados"
-    i class:'hn-icons icon-sitemap'
+    span ->
+      text "Clubes Afiliados"
+      i class:'hn-icons icon-sitemap'
   a '.hn-link', href: '/matriculas', ->
-    text 'Matrículas'
-    i class: 'hn-icons icon-edit'
+    span ->
+      text 'Matrículas'
+      i class: 'hn-icons icon-edit'
   a '.hn-link', href: "https://www.facebook.com/ligakaratebogota?fref=ts", ->
-    text 'Facebook'
-    span class: 'hn-icons icon-facebook'
+    span ->
+      text 'Facebook'
+      span class: 'hn-icons icon-facebook'
