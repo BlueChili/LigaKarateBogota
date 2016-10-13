@@ -3,9 +3,8 @@
   padding-top 1em
   display flex
   flex-flow row wrap
-  justify-content space-around
-  align-items center
-  @media screen and (max-width: 768px)
+  justify-content center
+  @media screen and (max-width: 414px)
     padding 0
     flex-flow column
   @media screen and (max-width: 1366px)
@@ -24,12 +23,18 @@
     color #3b5998
 
 .hn-link
-  min-width 10em
   text-decoration none
   position relative
   font-size 19px
   padding 0 0.5em
   margin 0.7em 1em
+  @media screen and (max-width: 768px)
+    text-align center
+    margin 0.5em
+    font-size 16px
+  @media screen and (min-width: 769px)
+    flex 0 0 12em
+    min-width 12em
   span
     position relative
     font-size 19px
@@ -62,6 +67,9 @@
     @media screen and (max-width: 768px)
       font-size 16px
       margin 0.3em
+    @media screen and (max-width: 350px)
+      font-size 14px
+      margin 0.2em
 
 @keyframes hn-hover
   0%

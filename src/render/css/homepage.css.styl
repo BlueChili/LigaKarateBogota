@@ -1,3 +1,4 @@
+// cs: Caroussel
 .cs
   position relative
 
@@ -85,6 +86,8 @@
   padding-top 2em
   @media screen and (max-width: 1366px)
     padding 1em 0
+  @media screen and (max-width: 350px)
+    padding-bottom 0.4em
 
 .cs-controlIcons
   font-size 16px
@@ -107,3 +110,35 @@
   left 0
 .icon-angle-right
   right 0
+
+// as: Article Summary
+.as
+  font-size 14px
+  img
+    height auto
+    width 100%
+    max-width 800px
+  p, em, strong, ul, li, a, h1, h2, h3, h4, h5, h6
+    max-width 600px
+    margin auto
+  p, em, strong, ul, li, a
+    font-size 1em
+  h1
+    font-size 1.8em
+    font-weight 100
+    padding 7px 14px
+  h2, h3, h4, h5, h6
+    font-size 1.3em
+    font-weight 100
+    padding 7px 14px
+
+.as-headLink
+  text-align center
+  text-decoration none
+  font-weight 300
+
+.as-headLine
+  font-size 2em
+
+.as-description
+  font-size 1.0em

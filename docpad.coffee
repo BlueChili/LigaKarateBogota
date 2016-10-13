@@ -11,10 +11,14 @@ docpadConfig = {
   port: 3000
   events:
     extendCollections: (opts) ->
-        @docpad.getCollection('files').on('add', (document) ->
-            document.setMetaDefaults(standalone:true))
+      @docpad.getCollection('files').on('add', (document) ->
+        document.setMetaDefaults(standalone:true))
+  collections:
+    recentUpdates: ->
+      @getCollection('html').findAllLive($or: [{type: 'media'}, {type: 'news'}], [date: -1])
 
   templateData:
+    marked: require('marked')
     getCustomStyles: layoutCss
     getHeadScripts: (layout) ->
       switch layout
@@ -28,27 +32,27 @@ docpadConfig = {
     site:
       navBar:
         about:
-          href: '/about.html'
+          href: '/about'
           label: '¿Quiénes somos?'
           section: 'about'
         history:
-          href: '/history.html'
+          href: '/history'
           label: 'Historia'
           section: 'history'
         results:
-          href: '/results.html'
+          href: '/results'
           label: 'Resultados deportivos'
           section: 'results'
         media:
-          href: '/media.html'
+          href: '/media'
           label: 'Galerías'
           section: 'media'
         contact:
-          href: '/contact.html'
+          href: '/contact'
           label: 'Contáctenos'
           section: 'contact'
         clubs:
-          href: '/clubs.html'
+          href: '/clubs'
           label: 'Clubes Afiliados'
           section: 'clubs'
 
@@ -72,7 +76,7 @@ docpadConfig = {
           ]
           data: ->
             filter = type: 'news'
-            return @docpad.getCollection('html').findAllLive(filter).sortArray(date: -1)
+            return @docpad.getCollection('html').findAllLive(filter)
         form:
           url: -> "/news/#{@slugify @title}"
           ext: 'html.md'
@@ -80,21 +84,72 @@ docpadConfig = {
             title: -> @title
             type: 'news'
             layout: 'article'
-            # tags: -> if @tags instanceof Array then @tags else []
             date: -> new Date(@date)
           content: -> @content
           components: [
             field: 'title'
+            label: 'Título'
+            type: 'text'
+          ,
+            field: 'description'
+            label: 'Descripción'
             type: 'text'
           ,
             field: 'date'
+            label: 'Fecha'
             type: 'date'
           ,
+            field: 'image'
+            label: 'Imagen de portada'
+            type: 'file'
+            use: 'thumbnail'
+            optional: true
+            images:
+              standard:
+                url: -> "/img/news/#{@slugify @title}.#{@ext}"
+                width: 1920
+                height: 9999999
+              thumbnail:
+                url: -> "/img/news/#{@slugify @title}.#{@ext}"
+                width: 300
+                height: 9999999
+          ,
+            field: 'filter'
+            label: 'Filtro'
+            type: 'choice'
+            expanded: true
+            data: -> ['Si', 'No']
+          ,
             field: 'content'
-            type: 'wysiwyg'
-            valydate: (val) -> typeof(val) is 'string' and val.length > 0
-            sanitize: (val) -> return val?.trim()
+            type: 'markdown'
+            height: 600
+          ,
           ]
+      ,
+      name: ['Galería', 'Galerías']
+      list:
+        fields: [
+          name: 'Título'
+          value: -> @title
+        ]
+        data: ->
+          @docpad.getCollection('html').findAllLive(type: 'media')
+      form:
+        url: -> "/media/#{@slugify @title}"
+        ext:'html.md'
+        meta:
+          title: -> @title
+          type: 'media'
+          layout: 'article'
+          date: -> new Date(@date)
+        content: -> @content
+        components: [
+          field: 'title'
+          type: 'text'
+        ,
+          field: 'date'
+          type: 'date'
+        ]
       ,
       ]
 }

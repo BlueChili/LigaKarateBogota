@@ -2,7 +2,6 @@
 title: "Liga de Karate de Bogotá"
 layout: "home"
 ---
-
 images = ["/img/carousel/resultados-superate-2015.jpg", "/img/media/news/seminario_2015-01_small.jpg", "/img/carousel/riohacha-1.jpg", "/img/campeona-copy.jpg"]
 
 div '.cs', ->
@@ -27,25 +26,25 @@ ul '.cs-controls', ->
 
 nav '.hn', ->
   a '.hn-link', href: '/news', ->
-    span -> 
+    span ->
       text 'Noticias'
       i class: 'hn-icons icon-newspaper'
   a '.hn-link', href:'/about.html', ->
-    span -> 
+    span ->
       text 'La Liga'
       i class: 'hn-icons icon-doc-text'
   a '.hn-link', href: "/history.html", ->
     span ->
       text "Historia"
       i class:'hn-icons icon-bank'
-  a '.hn-link', href: "/results.html", ->
-    span ->
-      text "Resultados Deportivos"
-      i class:'hn-icons icon-award'
   a '.hn-link', href: "/media.html", ->
     span ->
       text "Galerías"
       i class:'hn-icons icon-camera-alt'
+  a '.hn-link', href: "/results.html", ->
+    span ->
+      text "Resultados Deportivos"
+      i class:'hn-icons icon-award'
   a '.hn-link', href: "/contact.html", ->
     span ->
       text "Contácto"
@@ -62,3 +61,12 @@ nav '.hn', ->
     span ->
       text 'Facebook'
       span class: 'hn-icons icon-facebook'
+
+hr ->
+
+for post in @getCollection('recentUpdates').toJSON().slice(0,9)
+  div class: 'as', ->
+    a class: 'as-headLink', href: post.url, ->
+      h1 '.as-headLine', post.title
+    p '.as-description', post.cms.description
+    @marked post.content
