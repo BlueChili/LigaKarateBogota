@@ -85,6 +85,7 @@ docpadConfig = {
             type: 'news'
             layout: 'article'
             date: -> new Date(@date)
+            image: -> @image
           content: -> @content
           components: [
             field: 'title'
