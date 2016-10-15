@@ -1,14 +1,32 @@
 .at-wrapper
   display flex
   flex-wrap wrap
+  justify-content center
+  @media screen and (min-width: 668px)
+    flex-wrap nowrap
+  .nav-full
+    width 100%
+    order 1
+    font-size 11px
+    @media screen and (min-width: 668px)
+      order 0
+      width 22.3em
+      font-size 14px
   
 .at-headline
   flex 1
   text-align center
   max-width 40em
+  margin-bottom 0.3em
 
 .at-body
   font-size 16px
+  max-width 700px
+  margin-bottom 1em
+  img
+    width 100%
+    height auto
+    box-sizing border-box
   p
     font-size 1em
   h3
@@ -17,5 +35,11 @@
     font-size 2.2em
   h1
     font-size 3em
-  p, h1, h2, h3
-  	padding 0.4em 0.9em
+  p, h1, h2, h3, ul, img
+  	padding 7px 14px
+  ul
+    padding-left 1em
+    list-style square
+    li
+      margin-left 1em
+      margin-bottom 0.3em

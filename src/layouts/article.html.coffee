@@ -9,4 +9,5 @@ div '.master-container', ->
   div '.at-wrapper', ->
     text @partial('navigation')
     main '.at-body', ->
+      img src: @document.coverImage
       text @content
