@@ -31,6 +31,14 @@ docpadConfig = {
       @getCollection('html').findAllLive(type: 'news').sortArray(name:-1)
     site:
       navBar:
+        home:
+          href: '/'
+          label: 'Inicio'
+          section: 'home'
+        news:
+          href: '/news'
+          label: 'Noticias'
+          section: 'news'
         about:
           href: '/about'
           label: '¿Quiénes somos?'
@@ -55,6 +63,10 @@ docpadConfig = {
           href: '/clubs'
           label: 'Clubes Afiliados'
           section: 'clubs'
+        matriculas:
+          href: '/matriculas'
+          label: 'Matrículas'
+          section: 'matriculas'
 
   plugins:
     copy:

@@ -1,13 +1,11 @@
 ###
 layout: 'default'
-cms:
-  title: 'hello template'
 ###
 
 div '.master-container', ->
-  h1 '.at-headline', -> @document.cms.title
+  h1 '.at-headline', -> @document.title
   div '.at-wrapper', ->
     text @partial('navigation')
     main '.at-body', ->
-      img src: @document.coverImage
+      if @document.coverImage then img src: @document.coverImage
       text @content
