@@ -78,6 +78,6 @@ window.onload = () ->
         if target is slides.length then return moveToSlide slides[0]
         moveToSlide slides[target]
         break
-  , 2000
+  , 4000
 
   return
