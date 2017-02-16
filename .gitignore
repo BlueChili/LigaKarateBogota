@@ -9,3 +9,4 @@ mock__out/**
 out
 node_modules
 mock__out
+Session.vim
