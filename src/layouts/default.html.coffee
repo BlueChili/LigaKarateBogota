@@ -3,7 +3,7 @@ html lang: 'es', ->
   head ->
     meta charset: 'utf-8'
     meta name: 'description', content: @getPreparedDescription(@document.cms?.description)
-    meta name:'keywords', content:'Karate,Karate Do,karate do,Liga,Oficial,Bogotá,Bogota,IDRD'
+    meta name:'keywords', content:'Liga de Karate de Bogota,Karate Bogota,Karate,Karate Do,karate do,Liga,Oficial,Bogotá,Bogota,IDRD'
     meta name:'viewport', content:'width=device-width, initial-scale=1.0'
     link href:'http://fonts.googleapis.com/css?family=Lato:300,400|Raleway:300,400', rel:'stylesheet', type:'text/css'
     link type:'image/x-icon', href:'/img/favicon.ico', rel:'shorcut icon'
@@ -26,6 +26,15 @@ html lang: 'es', ->
 
 
   body ->
+    div id: 'fb-root'
+    script """
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v2.8&appId=741826672649522";
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    """
     unless @document.layout is 'home' then text @partial('header')
     text @content
     text @partial('links')

@@ -2,7 +2,7 @@
 title: "Liga de Karate de Bogotá"
 layout: "home"
 ---
-images = ["/img/carousel/resultados-superate-2015.jpg", "/img/media/news/seminario_2015-01_small.jpg", "/img/carousel/riohacha-1.jpg", "/img/campeona-copy.jpg"]
+# images = ["/img/carousel/resultados-superate-2015.jpg", "/img/media/news/seminario_2015-01_small.jpg", "/img/carousel/riohacha-1.jpg", "/img/campeona-copy.jpg"]
 
 div '.cs', ->
   img '.cs-logo', src: '/img/logo.png'
@@ -11,7 +11,7 @@ div '.cs', ->
       a '.cs-item', href: post.url, ->
         span '.cs-item__imgWrapper', ->
           img '.cs-item__img', src: post.coverImage
-          div '.cs-item__imgFilter', ->
+          # div '.cs-item__imgFilter', ->
         span '.cs-item__info', ->
           h1 '.cs-item__title', post.title
           span '.cs-item__description', post.cms.description
