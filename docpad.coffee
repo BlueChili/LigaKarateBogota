@@ -165,6 +165,11 @@ docpadConfig = {
         ]
       ,
       ]
+  environments:
+    static:
+      enabledPlugins:
+        livereload: false
+        # cleanurls: false
 }
 
 # Export the DocPad Configuration
