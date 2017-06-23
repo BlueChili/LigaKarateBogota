@@ -1,0 +1,128 @@
+@import 'partials/reset'
+@import 'partials/base-text'
+// @import 'fontello'
+
+
+body
+  font-family 'Lato'
+  color #333
+  background rgb(250,250,250)
+
+header
+  display flex
+  justify-content center
+  padding 2rem auto
+  margin 2rem auto
+
+a
+  color black
+// Color definitions
+
+green_primary = #a3c81c
+green_secondary = #668200
+blue_primary = #186184
+blue_secondary = #0c4c6c
+purple_primary = #631a8b
+purple_secondary = #3c045b
+red_primary = #D40221
+red_secondary = #A4021E
+
+/*-------------------------
+ Home page styles:
+ - Left navigation bar
+ - Central fixed section
+ - Right column news feed
+--------------------------*/
+
+header
+  background url(../img/top_web.jpg) center
+  background-size cover
+  height 130px
+  width 100%
+  margin 0
+  box-shadow 0px 3px 10px rgba(109, 116, 139, 0.9)
+  margin-bottom 2em
+  @media screen and (max-width 736px), (min-device-pixel-ratio: 2)
+    background url(../img/top_web-mob.jpg)
+    background-size cover
+    margin-bottom 1em
+  a
+    display flex
+    align-items center
+    flex-flow row
+    text-decoration none
+    margin 0
+    padding 0
+
+    .header-title
+      color white
+      font-family 'Helvetica', 'Arial', 'Raleway'
+      font-weight 600
+      text-shadow #333333 1px 3px 2px
+
+    .logo
+      height 8em
+      width auto
+      margin auto 2em
+
+article
+  font-size 1rem
+  width auto
+  border-bottom 2px solid red_primary
+  padding-bottom 1em
+  margin-bottom 1em
+  h1
+    font-family 'Raleway'
+    font-size 3em
+    padding 0.5em
+  img
+    width 90%
+    margin 0 5%
+  p
+    font-size 1.3em
+    margin 1em 10%
+  a
+    color black
+    text-decoration none
+
+.container
+  display flex
+  width 98%
+  margin -2em auto 0
+  flex-flow row wrap
+  align-items base-line
+  box-shadow 0px 0px 3px #939CBB
+
+.about, .info, .news .article
+  display flex
+  flex 1 1 none
+  // border 1px solid black
+
+aside.footnote
+  border-top 2px  solid #F60F17
+
+.links
+  background #222
+  display flex
+  flex-flow row nowrap
+  font-size 1rem
+  height 5em
+  justify-content center
+  align-items center
+  margin-top 2em
+  box-shadow 0px 0px 2px 1px #888
+  a
+    display flex
+    color #fff
+    font-family 'Raleway'
+    font-size 1.5em
+    padding 1em
+    text-decoration none
+    text-transform uppercase
+    &:hover
+      background #888
+
+@import 'partials/navbar'
+@import 'partials/media-queries'
+@import 'partials/article'
+@import 'partials/news'

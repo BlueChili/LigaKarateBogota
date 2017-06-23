@@ -1,0 +1,11 @@
+languageCode = "es-co"
+title = "Página oficial de la Liga de Karate Do de Bogotá"
+baseURL = "http://ligakaratebogota.com/"
+
+publishDir = "public"
+
+[blackfriday]
+  hrefTargetBlank = true
+
+[taxonomies]
+  category = "categories"

@@ -1,0 +1,10 @@
+<nav class="nav-full">
+    {{ $type := .Params.section }}
+    {{ range $item := .Site.Data.navigation.navigation }}
+        {{ if eq $item.section $type }}
+        <a href="{{ $item.href}}" class='current-area'>{{ $item.label}}</a>
+        {{ else }}
+        <a href="{{ $item.href}}">{{ $item.label}}</a>
+        {{ end }}
+    {{ end }}
+</nav>

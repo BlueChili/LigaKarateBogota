@@ -1,0 +1,131 @@
+.master-container
+  display flex
+  flex-direction column
+  .headline
+    display flex
+    flex-flow row
+    justify-content center
+    margin-bottom 1em
+    padding 0 2em 0
+    h1
+      font-size 3em
+      text-align center
+  .content-wrapper
+    // display flex
+    // flex-direction row wrap
+    margin-top 1em
+    width 100%
+    .results-wrapper
+      display flex
+      flex-flow row wrap
+      margin-bottom 1em
+
+.noticias
+  display flex
+  flex-flow column
+  box-shadow 0px 1px 2px rgba(0,0,0,0.1)
+  background #d40221           // My really nice green #47c15a
+  margin-bottom 1em
+  width 100%
+  flex 100%
+  h5
+    padding 0.5em
+    display flex
+    font-family 'Raleway'
+    color white
+    justify-content center
+    text-align center
+    flex-flow wrap
+    font-size 2em
+  a
+    font-family 'Lato'
+    font-size 1em
+    padding 0.8em
+    text-decoration none
+    // text-align center
+    border-bottom 1px solid #b8cfef
+    background white
+
+  .table
+    display flex
+    flex-flow row wrap
+    flex 1
+    a
+      display flex
+      flex 100%
+      flex-flow row wrap
+      text-align left
+      justify-content flex-start
+
+
+.result-card
+  display flex
+  width 100%
+  flex-flow column
+  text-align center
+  padding-bottom 1em
+  margin-bottom 1em
+  box-shadow 0px 1px 2px rgba(0,0,0,0.1)
+  button
+    cursor pointer
+  h5
+    text-transform capitalize
+    background #d40221      // #47c15a
+    font-size 2em
+    padding 0.5em
+    color white
+  .data-container
+    display flex
+    justify-content center
+    flex-flow row wrap
+    width 100%
+    .cell
+      display flex
+      flex-flow column
+      font-size 1.2em
+      text-align center
+      margin 0
+      // min-width 140px
+      width 50%
+      h6
+        background #b8cfef
+      p, h6
+        border 1px solid white
+        padding 0.5em
+        font-size 0.9em
+        text-transform capitalize
+
+
+@media screen and (min-width 600px)
+  .noticias
+    .table
+      a
+        box-sizing border-box
+        display flex
+        flex 2 47%
+        border-left 1px solid #b8cfef
+        border-right 1px solid #b8cfef
+        margin-left -1px
+  .content-wrapper
+    .results-wrapper
+      .data-container
+        .cell
+          width 140px
+
+@media screen and (min-width 1024px)
+  .master-container
+    width 68em
+    margin auto
+    .headline
+      h1
+        padding 0.5em
+
+  .content-wrapper
+    display flex
+    flex-flow row nowrap
+    .results-wrapper
+      order 1
+      width 700px
+      .data-container
+        .cell
+          width 140px
