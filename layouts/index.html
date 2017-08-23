@@ -4,8 +4,72 @@
         {{ partial "head" . }}
     </head> 
     <body>
-        {{ .Content }}
-        <h1>hello</h1>
+        <div class="cs">
+            <img class="cs-logo" src="/img/logo.png" alt="Logo de la Liga d eKarate de Bogotá">
+            <div class='cs-itemWrapper'>
+            {{range first 3 ( where .Site.RegularPages "Section" "news") }}
+                <a class="cs-item" href="{{ .URL }}">
+                    <span class="cs-item__imgWrapper">
+                        <img class="cs-item__img" src="{{ .Params.coverImage }}" alt="">
+                    </span>
+                    <span class="cs-item__info">
+                        <h1 class="cs-item__title">{{ .Title}}</h1>
+                        <span class="cs-item__description">{{ .Params.description }}</span>
+                    </span>
+                </a>
+            {{ end}}
+            </div>
+            <i class="icon-angle-left"></i>
+            <i class="icon-angle-right"></i>
+        </div>
+        <ul class="cs-controls">
+            <li class="cs-controlIcons icon-circle">
+            </li>
+            <li class="cs-controlIcons icon-circle-thin"></li>
+            <li class="cs-controlIcons icon-circle-thin"></li>
+        </ul>
+        <nav class="hn">
+            <a class="hn-link" href="/news">
+                <span>Noticias<i class="hn-icons icon-newspaper"></i></span>
+            </a>
+            <a class="hn-link" href="/about">
+                <span>La Liga<i class="hn-icons icon-doc-text"></i></span>
+            </a>
+            <a class="hn-link" href="/history">
+                <span>Historia<i class="hn-icons icon-bank"></i></span>
+            </a>
+            <a class="hn-link" href="/media">
+                <span>Galerías<i class="hn-icons icon-camera-alt"></i></span>
+            </a>
+            <a class="hn-link" href="/results">
+                <span>Resultados Deportivos<i class="hn-icons icon-award"></i></span>
+            </a>
+            <a class="hn-link" href="/contact">
+                <span>Contacto<i class="hn-icons icon-mail"></i></span>
+            </a>
+            <a class="hn-link" href="/clubs">
+                <span>Clubes Afiliados<i class="hn-icons icon-sitemap"></i></span>
+            </a>
+            <a class="hn-link" href="/matriculas">
+                <span>Matrículas<i class="hn-icons icon-edit"></i></span>
+            </a>
+            <a class="hn-link" href="//www.facebook.com/karatebogota/">
+                <span>Facebook<i class="hn-icons icon-facebook"></i></span>
+            </a>
+        </nav>
+        {{ range first 10 (where .Site.RegularPages "Section" "news") }}
+        <div class="as">
+            <a class="as-headLink" href="{{ .URL }}">
+                <h1 class="as-headLine">{{ .Title }}</h1>
+            </a>
+            <a class="as-headLink" href="{{ .URL }}">
+                <img class="as-coverImage" src="{{ .Params.coverImage }}" alt="">
+            </a>
+            {{ .Content }}
+        </div>
+        {{ end }}
+        <script src="/js/hp-carousel.js"></script>
         {{ partial "footer" }}
     </body>
 </html>
+
