@@ -1,14 +1,11 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="utf-8">
-        <meta name="keywords" content="Liga de Karate de Bogota,Karate Bogota,Karate,Karate Do,karate do,Liga,Oficial,Bogotá,Bogota,IDRD">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:300,400|Raleway:300,400" type="text/css">
-    </head> 
+    {{ partial "head.html" . }}
     <body>
-        {{ block "main" . }}
+        {{ partial "header" }}
 
-        {{ end }}
+        {{ block "main" . }} {{ end }}
+
+        {{ partial "footer.html" }}
     </body>
 </html>

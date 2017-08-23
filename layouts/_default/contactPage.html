@@ -1,0 +1,11 @@
+{{ define "main" }}
+    <div class="contact-container">
+        <div class="headline">
+            <h1>{{ .Title }}</h1>
+        </div>
+        <div class="contact-body">
+            {{ partial "navigation" . }}
+                <article>{{ .Content }}</article>
+        </div>
+    </div>
+{{ end }}
