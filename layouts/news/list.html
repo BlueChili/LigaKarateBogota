@@ -5,17 +5,21 @@
         {{ partial "header.html" }}
 
             <div class='master-container'>
-                <h1 class="nw-mainTitle">Noticias de la LKB</h1>
+                <h1 class="nw-mainTitle">Noticias</h1>
                 <div class="nw-wrapper">
                     <!-- {{ partial "navigation.html" .Site.Data.navigation }} -->
                     {{ partial "navigation.html" . }}
                     <main>
+                    {{range where .Site.RegularPages "Section" "news"}}
+                        <article class="nw-article">
+                            <a class="nw-article--headLink" href="{{ .URL }}"><h1 class="nw-article--headLine">{{ .Title }}</h1></a>
+                            <a class="nw-article--headLink" href="{{ .URL }}"><img class="nw-article--coverImage" src="{{ .Params.coverImage }}" alt="Imagen de portada para el artículo: {{ .Title }}"></a>
+                        </article>
+                    {{end}}
                     {{if .Params.coverImage }}
                         <img src="{{ .Params.coverImage}}" alt="Imagen principal"> 
                     {{ end }}
                         {{ .Content}}
-                        <div class="fb-like" data-href='https://www.facebook.com/ligakaratebogota/' data-layout='standard' data-action='like' data-size='small' data-show-faces='true' data-share='true' style='padding-top: 20px'>
-                        </div>
                     </main>
                 </div>
             </div>
