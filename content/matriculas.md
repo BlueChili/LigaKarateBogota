@@ -1,6 +1,6 @@
 ---
 title: Matrículas
-section: contact
+section: matriculas
 layout: singleArticle
 ---
 
