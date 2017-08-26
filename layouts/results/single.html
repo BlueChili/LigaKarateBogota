@@ -1,0 +1,10 @@
+{{ define "main" }}
+  <div class='master-container'>
+    <div class='content-wrapper'>
+        <div class='results-wrapper'>
+            {{ .Content }}
+        </div>
+    {{ partial "navigation" . }}
+    </div>
+  </div>
+{{ end }}

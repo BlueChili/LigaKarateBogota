@@ -1,0 +1,49 @@
+{
+  "navigation": [
+     {
+       "href": "/",
+       "label": "Inicio",
+       "section": "home"
+     },
+     {
+       "href": "/news",
+       "label": "Noticias",
+       "section": "news"
+     },
+     {
+       "href": "/about",
+       "label": "¿Quiénes somos?",
+       "section": "about"
+     },
+     {
+       "href": "/history",
+       "label": "Historia",
+       "section": "history"
+     },
+     {
+       "href": "/results",
+       "label": "Resultados deportivos",
+       "section": "results"
+     },
+     {
+       "href": "/galerias",
+       "label": "Galerías",
+       "section": "galerias"
+     },
+     {
+       "href": "/contact",
+       "label": "Contáctenos",
+       "section": "contact"
+     },
+     {
+       "href": "/clubs",
+       "label": "Clubes Afiliados",
+       "section": "clubs"
+     },
+     {
+       "href": "/matriculas",
+       "label": "Matrículas",
+       "section": "matriculas"
+     }
+  ]
+}

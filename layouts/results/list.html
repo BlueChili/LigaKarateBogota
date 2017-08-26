@@ -1,0 +1,15 @@
+{{ define "main" }}
+  <div class='master-container'>
+    <div class="headline">
+        <h1>{{ .Title }}</h1>
+    </div>
+    <div class='content-wrapper'>
+        <div class='results-wrapper'>
+            {{ range where .Site.RegularPages "Section" "results" }}
+                {{ .Content }}
+            {{ end }}
+        </div>
+    {{ partial "navigation" . }}
+    </div>
+  </div>
+{{ end }}
