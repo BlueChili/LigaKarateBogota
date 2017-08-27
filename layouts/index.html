@@ -57,7 +57,7 @@
                 <span>Facebook<i class="hn-icons icon-facebook"></i></span>
             </a>
         </nav>
-        {{ range first 10 (where .Site.RegularPages "Section" "news") }}
+        {{ range first 10 (where .Site.Pages "Section" "news") }}
         <div class="as">
             <a class="as-headLink" href="{{ .URL }}">
                 <h1 class="as-headLine">{{ .Title }}</h1>
