@@ -1,8 +1,9 @@
 ---
-title: 40 Años de la Liga de Karate de Bogotá
-section: galerias
+date: 2015-01-01T20:26:23.000Z
 extraCSS: /css/media.css
-galleryURL: http://www.youtube.com/embed/2CJkdPD6SKA
 galleryType: video
-date: 2015-01-01T15:26:23-05:00
+galleryURL: 'http://www.youtube.com/embed/2CJkdPD6SKA'
+section: galerias
+title: 40 Años de la Liga de Karate de Bogotá something
 ---
+
