@@ -4,6 +4,7 @@ extraCSS: /css/media.css
 galleryType: video
 galleryURL: 'http://www.youtube.com/embed/2CJkdPD6SKA'
 section: galerias
-title: 40 Años de la Liga de Karate de Bogotá something
+title: 40 Años de la Liga de Karate de Bogotá
 ---
+
 
