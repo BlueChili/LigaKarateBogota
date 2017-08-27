@@ -7,7 +7,7 @@
         <div class="cs">
             <img class="cs-logo" src="/img/logo.png" alt="Logo de la Liga d eKarate de Bogotá">
             <div class='cs-itemWrapper'>
-            {{range first 3 ( where ( where .Site.Pages "Kind" "page") "Section" "news") }}
+            {{range first 3 ( where .Site.Pages "Section" "news") }}
                 <a class="cs-item" href="{{ .URL }}">
                     <span class="cs-item__imgWrapper">
                         <img class="cs-item__img" src="{{ .Params.coverImage }}" alt="">
