@@ -4,5 +4,5 @@ section: galerias
 extraCSS: /css/media.css
 galleryURL: http://www.youtube.com/embed/2CJkdPD6SKA
 galleryType: video
-date: 'Sat Aug 26 2017 21:21:16 GMT-0500 (-05)'
+date: 2015-01-01T15:26:23-05:00
 ---
