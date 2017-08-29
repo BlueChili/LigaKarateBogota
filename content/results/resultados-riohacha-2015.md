@@ -3,7 +3,7 @@ extraCSS: /css/results.css
 headline: Resultados Riohacha 2015 - Menores de 21 años
 section: results
 title: Resultados Riohacha 2015 - Menores de 21 años
-date: 06/23/2015 8:13 AM
+date: 2015-06-23T08:13:00-05:00
 ---
 <section class="noticias">
     <h5>Resultados Riohacha 2015 - Menores de 21 años</h5>
