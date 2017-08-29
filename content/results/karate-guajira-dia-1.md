@@ -1,4 +1,5 @@
 ---
+date: 2015-06-14T02:03:04-05:00
 extraCSS: /css/results.css
 headline: Karate Guajira 2015 Día 1
 section: results
@@ -12,6 +13,7 @@ title: Karate Guajira 2015 Día 1
         <a class="icon-file-pdf" href="/files/docs/SENIOR-Resultados-Masc.pdf">Senior Resultados Masculino</a>
         <a class="icon-file-pdf" href="/files/docs/SENIOR-Resultados-Feme.pdf">Senior Resultados Femenino</a>
 </section>
+
 
 
 
