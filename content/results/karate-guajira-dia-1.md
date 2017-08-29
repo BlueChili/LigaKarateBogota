@@ -1,8 +1,9 @@
 ---
-title: 'Karate Guajira 2015 Día 1'
-headline: 'Karate Guajira 2015 Día 1'
-section: 'results'
+date: 06/14/2015 2:44 PM
 extraCSS: /css/results.css
+headline: Karate Guajira 2015 Día 1
+section: results
+title: Karate Guajira 2015 Día 1
 ---
 <section class="noticias">
     <h5>Karate Guajira 2015 Día 1</h5>
@@ -12,3 +13,4 @@ extraCSS: /css/results.css
         <a class="icon-file-pdf" href="/files/docs/SENIOR-Resultados-Masc.pdf">Senior Resultados Masculino</a>
         <a class="icon-file-pdf" href="/files/docs/SENIOR-Resultados-Feme.pdf">Senior Resultados Femenino</a>
 </section>
+
