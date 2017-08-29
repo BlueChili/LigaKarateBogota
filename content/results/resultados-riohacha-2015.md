@@ -1,8 +1,9 @@
 ---
-title: 'Resultados Riohacha 2015 - Menores de 21 años'
-headline: 'Resultados Riohacha 2015 - Menores de 21 años'
-section: 'results'
+date: 2017-08-29T07:00:50.067Z
 extraCSS: /css/results.css
+headline: Resultados Riohacha 2015 - Menores de 21 años
+section: results
+title: Resultados Riohacha 2015 - Menores de 21 años
 ---
 <section class="noticias">
     <h5>Resultados Riohacha 2015 - Menores de 21 años</h5>
@@ -37,3 +38,4 @@ extraCSS: /css/results.css
         <a class="icon-file-pdf" href="/files/docs/resultados-finales-guajira-2015/SUB21-Tabla-de-Medalleria.pdf">SUB21 Tabla de Medallería</a>
     </div>
 </section>
+
