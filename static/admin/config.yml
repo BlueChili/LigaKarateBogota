@@ -3,7 +3,8 @@ backend:
   repo: BlueChili/LigaKarateBogota # Path to your Github repository
   branch: cmstest # Branch to update (master by default)
 
-media_folder: "img/uploads" # Folder where user uploaded files should go
+media_folder: "static" # Folder where user uploaded files should go
+public_folder: "/uploads"
 
 collections: # A list of collections the CMS should be able to edit
   - name: "news" # Used in routes, e.g., /admin/collections/:slug/edit
@@ -11,13 +12,27 @@ collections: # A list of collections the CMS should be able to edit
     folder: "content/news" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
-      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
+      - {label: "Título", name: "title", widget: "string"}
+      - {label: "Descripción corta", name: "description", widget: "string"}
+      - {label: "Imagen de portada", name: "coverImage", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Fecha de publicación", name: "date", widget: "datetime"}
+      - {label: "section", name: "section", widget: "hidden", default:"news"}
   - name: "galerias" # Used in routes, e.g., /admin/collections/:slug/edit
     label: "Galerías" # Used in the UI, e.g., "New Post"
     folder: "content/galerias" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Link", name: "galleryURL", widget: "string"}
+      - {label: "Imagen de portada", name: "galleryThumbnail", widget: "image", required: false}
+      - {label: "Tipo de galería", name: "galleryType", widget: "select", options: ["video", "image"]}
+      - {label: "Fecha de publicación", name: "date", widget: "datetime"}
+  - name: "results"
+    label: "Resultados"
+    folder: "content/results"
+    create: true
+    fields:
+      - {label: "Título", name: "title", widget: "string"}
+      - {label: "Fecha de publicación", name: "date", widget: "datetime"}
+

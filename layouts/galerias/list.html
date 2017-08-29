@@ -6,7 +6,7 @@
     <div class='content-container'>
         {{ partial "navigation" . }}
         <div class='card-container'>
-            {{ range where .Site.RegularPages "Section" "galerias" }}
+            {{ range (sort (where .Site.RegularPages "Section" "galerias") .Params.Date)}}
                 {{ if eq .Params.galleryType "image"}}
                 <div class="gallery-card-image">
                     <a href="{{ .Params.galleryURL }}" target="_blank">
