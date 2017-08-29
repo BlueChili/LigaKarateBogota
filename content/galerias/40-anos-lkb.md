@@ -1,5 +1,5 @@
 ---
-date: 'Thu Jul 02 2015 15:31:00 GMT-0500'
+date: 2015-07-02T15:31:00-05:00
 extraCSS: /css/media.css
 galleryThumbnail: /img/media/thumbnails/40-anos.jpg
 galleryType: image
