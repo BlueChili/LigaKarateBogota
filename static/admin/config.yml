@@ -16,7 +16,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Descripción corta", name: "description", widget: "string"}
       - {label: "Imagen de portada", name: "coverImage", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Fecha de publicación", name: "date", widget: "datetime", format: 'YYYY-MM-DD hh:mmZ'}
+      - {label: "Fecha de publicación", name: "date", widget: "datetime", format: "Y-MM-DD"}
       - {label: "section", name: "section", widget: "hidden", default:"news"}
       - label: "Ingredients"
         name: "ingredients"
@@ -38,11 +38,11 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Link", name: "galleryURL", widget: "string"}
       - {label: "Imagen de portada", name: "galleryThumbnail", widget: "image", required: false}
       - {label: "Tipo de galería", name: "galleryType", widget: "select", options: ["video", "image"]}
-      - {label: "Fecha de publicación", name: "date", widget: "datetime", format: 'YYYY-MM-DD hh:mm'}
+      - {label: "Fecha de publicación", name: "date", widget: "datetime", format: "Y-MM-DD"}
   - name: "results"
     label: "Resultados"
     folder: "content/results"
     create: true
     fields:
       - {label: "Título", name: "title", widget: "string"}
-      - {label: "Fecha de publicación", name: "date", widget: "datetime", format: 'YYYY-MM-DD'}
+      - {label: "Fecha de publicación", name: "date", widget: "datetime", format: "Y-MM-DD"}
