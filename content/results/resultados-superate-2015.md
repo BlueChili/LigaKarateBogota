@@ -5,8 +5,16 @@ results:
   - heading: Supérate 2015
     items:
       - item:
-          name: Planillas Femenino
           attachment: /files/docs/superate-2015/Planillas-Femenino.pdf
+          name: Planillas Femenino
+      - item:
+          name: Planillas Masculino
+      - item:
+          name: Resultados Femenino
+      - item:
+          name: Resultados Masculino
+      - item:
+          name: Tabla de Medallería
 ---
 
 
