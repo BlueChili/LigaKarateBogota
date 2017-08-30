@@ -19,6 +19,7 @@ results:
       - item:
           attachment: /uploads/Tabla-de-Medalleria.pdf
           name: Tabla de Medallería
+    tableType: columna
 ---
 
 
