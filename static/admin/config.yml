@@ -39,11 +39,11 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Link", name: "galleryURL", widget: "string"}
       - {label: "Imagen de portada", name: "galleryThumbnail", widget: "image", required: false}
       - {label: "Tipo de galería", name: "galleryType", widget: "select", options: ["video", "image"]}
-      - {label: "Fecha de publicación", name: "date", widget: "datetime"}
+      - {label: "Fecha de publicación", name: "date", widget: "datetime", format: "YYYY-MM-DD hh:mma"}
   - name: "results"
     label: "Resultados"
     folder: "content/results"
     create: true
     fields:
       - {label: "Título", name: "title", widget: "string"}
-      - {label: "Fecha de publicación", name: "date", widget: "datetime"}
+      - {label: "Fecha de publicación", name: "date", widget: "datetime", format: "YYYY-MM-DD hh:mma"}
