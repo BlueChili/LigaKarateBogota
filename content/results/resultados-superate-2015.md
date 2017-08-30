@@ -8,15 +8,16 @@ results:
           attachment: /files/docs/superate-2015/Planillas-Femenino.pdf
           name: Planillas Femenino
       - item:
-          name: Planillas Masculino
           attachment: /files/docs/superate-2015/Planillas-Masculino.pdf
+          name: Planillas Masculino
       - item:
+          attachment: /files/docs/superate-2015/Resultados-Femenino.pdf
           name: Resultados Femenino
-          attachment: /files/docs/superate-2015/Resultados-Femenino.pdf
       - item:
+          attachment: /files/docs/superate-2015/Resultados-Femenino.pdf
           name: Resultados Masculino
-          attachment: /files/docs/superate-2015/Resultados-Femenino.pdf
       - item:
+          attachment: /uploads/Tabla-de-Medalleria.pdf
           name: Tabla de Medallería
 ---
 
