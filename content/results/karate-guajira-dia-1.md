@@ -1,5 +1,4 @@
 ---
-date: 2015-06-14T02:03:04-05:00
 extraCSS: /css/results.css
 headline: Karate Guajira 2015 Día 1
 section: results
