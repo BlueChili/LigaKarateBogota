@@ -16,34 +16,65 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Descripción corta", name: "description", widget: "string"}
       - {label: "Imagen de portada", name: "coverImage", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Fecha de publicación", name: "date", widget: "date", format: "YYYY-MM-DDThh:mm:ssZ"}
+      - {label: "Fecha de publicación", name: "date", widget: "datetime", format: "Y-MM-DDThh:mm:ssZ"}
       - {label: "section", name: "section", widget: "hidden", default:"news"}
-      - label: "Ingredients"
-        name: "ingredients"
-        widget: "list"
-        required: false
-        fields:
-          - label: "Ingredient"
-            name: "ingredient"
-            widget: "object"
-            fields:
-              - {label: "Amount", name: "amount", widget: "number"}
-              - {label: "Unit", name: "unit", widget: "select", options: ["", "dl", "l", "kg"]}
-              - {label: "Name", name: "name", widget: "string"}
-  - name: "galerias" # Used in routes, e.g., /admin/collections/:slug/edit
-    label: "Galerías" # Used in the UI, e.g., "New Post"
+  - name: "facebookAlbums" # Used in routes, e.g., /admin/collections/:slug/edit
+    label: "Facebook albums" # Used in the UI, e.g., "New Post"
     folder: "content/galerias" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
+    filter:
+      field: galleryType
+      value: image
     fields: # The fields each document in this collection have
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Link", name: "galleryURL", widget: "string"}
       - {label: "Imagen de portada", name: "galleryThumbnail", widget: "image", required: false}
-      - {label: "Tipo de galería", name: "galleryType", widget: "select", options: ["video", "image"]}
-      - {label: "Fecha de publicación", name: "date", widget: "datetime", format: "YYYY-MM-DDThh:mm:ssZ"}
+      - { name: "galleryType", widget: "hidden", default: "image"}
+      - {label: "Fecha de publicación", name: "date", widget: "datetime", format: "Y-MM-DDThh:mm:ssZ"}
+  - name: "youtube" # Used in routes, e.g., /admin/collections/:slug/edit
+    label: "Youtube" # Used in the UI, e.g., "New Post"
+    folder: "content/galerias" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    filter:
+      field: galleryType
+      value: video
+    fields: # The fields each document in this collection have
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Link", name: "galleryURL", widget: "string"}
+      - {label: "Tipo de galería", name: "galleryType", widget: "hidden", default: "video"}
+      - {label: "Fecha de publicación", name: "date", widget: "datetime", format: "Y-MM-DDThh:mm:ssZ"}
   - name: "results"
     label: "Resultados"
     folder: "content/results"
     create: true
     fields:
       - {label: "Título", name: "title", widget: "string"}
-      - {label: "Fecha de publicación", name: "date", widget: "datetime", format: "YYYY-MM-DDThh:mm:ssZ"}
+      - {label: "Fecha de publicación", name: "date", widget: "datetime", format: "Y-MM-DDThh:mm:ssZ"}
+      - label: "Resultados"
+        name: "results"
+        widget: "list"
+        required: false
+        fields:
+          - label: "Resultado"
+            name: resultado
+            widget: object
+            fields:
+            - label: "Tipo"
+              name: "tableType"
+              widget: "select"
+              options: ["lista", "columna"]
+              default: "lista"
+            - label: "Encabezado"
+              name: "heading"
+              widget: "string"
+            - label: "Items"
+              name: "items"
+              widget: "list"
+              fields:
+                - label: "Item"
+                  name: "item"
+                  widget: "object"
+                  fields:
+                    - {label: "Nombre", name: "name", widget: "string"}
+                    - {label: "Archivo", name: "attachment", widget: "file", required: false}
+      - {label: "Cuerpo", name: body, widget: markdown, required: false}

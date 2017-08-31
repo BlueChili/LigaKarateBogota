@@ -21,5 +21,3 @@ results:
             name: Tabla de Medallería
             attachment: /uploads/Tabla-de-Medalleria.pdf
 ---
-
-
