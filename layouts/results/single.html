@@ -1,10 +1,23 @@
 {{ define "main" }}
   <div class='master-container'>
+    <div class="headline">
+        <h1>{{ .Title }}</h1>
+    </div>
     <div class='content-wrapper'>
-        <div class='results-wrapper'>
+        <main class='results-wrapper'>
+            <section class="noticias">
+            {{ range .Params.results }}
+                <h5>{{ .resultado.heading }}</h5>
+                <div class="table">
+                    {{ range .resultado.items }}
+                    <a href='{{- .item.attachment -}}' class='icon-file-pdf'>{{- .item.name -}}</a>
+                    {{ end }}
+                </div>
+            {{ end }}
             {{ .Content }}
-        </div>
-    {{ partial "navigation" . }}
+            </section>
+        </main>
+        {{ partial "navigation" . }}
     </div>
   </div>
 {{ end }}
