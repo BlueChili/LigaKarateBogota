@@ -44,7 +44,7 @@ tablas:
             heading: Bronce
             items:
               - item: '-'
-      heading: Participación y campeonatos de preparación 2015
+      heading: Participación y campeonatos preparación 2015
 ---
 
 
