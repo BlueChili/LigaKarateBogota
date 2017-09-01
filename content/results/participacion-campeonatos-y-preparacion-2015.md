@@ -1,8 +1,15 @@
 ---
-title: 'Participación campeonatos y preparación 2015'
-headline: 'Participación campeonatos y preparación 2015'
-section: 'results'
-extraCSS: /css/results.css
+title: Participación campeonatos y preparación 2015
+date: 2017-09-01T08:27:25.886Z
+tablas:
+  - tabla:
+      columnas:
+        - columna:
+            heading: Sede
+            items:
+              - item: Peru
+              - item: Lima
+      heading: Participación y campeonatos de preparación 2015
 ---
 <div class="result-card" ng-controller="CicloController as ciclo" ng-init="i = 0">
   <h5>participación campeonatos y preparación 2015</h5>
@@ -49,3 +56,4 @@ extraCSS: /css/results.css
     </div>
   </div>
 </div>
+
