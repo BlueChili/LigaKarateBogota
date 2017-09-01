@@ -10,10 +10,12 @@
                     <h5>{{ .tabla.heading }}</h5>
                    <div class="data-container">
                        {{ range .tabla.columnas }}
-                            <h5>{{- .columna.heading -}}</h5>
-                            {{ range .columna.items }}
-                            <p>{{ .item }}</p>
-                            {{ end }}}
+                            <div class="cell">
+                            <h6>{{- .columna.heading -}}</h6>
+                                {{ range .columna.items }}
+                                    <p>{{ .item }}</p>
+                                {{ end }}
+                            </div>
                        {{ end }}
                    </div>
                 </div>

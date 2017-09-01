@@ -55,6 +55,7 @@ collections: # A list of collections the CMS should be able to edit
     folder: "content/results"
     create: true
     fields:
+      - {Label: "Section" name: "section", widget: "hidden", default: "results" }
       - {label: "Título", name: "title", widget: "string"}
       - {label: "Fecha de publicación", name: "date", widget: "datetime", format: "Y-MM-DDThh:mm:ssZ"}
       - label: "Tablas"
