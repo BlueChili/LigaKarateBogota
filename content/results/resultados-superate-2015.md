@@ -1,8 +1,8 @@
 ---
 title: Resultados Supérate 2015
 date: 2015-08-28T22:42:33.000Z
-results:
-  - resultado:
+listas:
+  - lista:
       heading: Supérate 2015
       items:
         - item:

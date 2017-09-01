@@ -7,6 +7,7 @@ media_folder: "static" # Folder where user uploaded files should go
 public_folder: "/uploads"
 
 collections: # A list of collections the CMS should be able to edit
+
   - name: "news" # Used in routes, e.g., /admin/collections/:slug/edit
     label: "Noticias" # Used in the UI, e.g., "New Post"
     folder: "content/news" # The path to the folder where the documents are stored
@@ -18,6 +19,8 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Fecha de publicación", name: "date", widget: "datetime", format: "Y-MM-DDThh:mm:ssZ"}
       - {label: "section", name: "section", widget: "hidden", default:"news"}
+
+
   - name: "facebookAlbums" # Used in routes, e.g., /admin/collections/:slug/edit
     label: "Facebook albums" # Used in the UI, e.g., "New Post"
     folder: "content/galerias" # The path to the folder where the documents are stored
@@ -31,6 +34,8 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Imagen de portada", name: "galleryThumbnail", widget: "image", required: false}
       - { name: "galleryType", widget: "hidden", default: "image"}
       - {label: "Fecha de publicación", name: "date", widget: "datetime", format: "Y-MM-DDThh:mm:ssZ"}
+
+
   - name: "youtube" # Used in routes, e.g., /admin/collections/:slug/edit
     label: "Youtube" # Used in the UI, e.g., "New Post"
     folder: "content/galerias" # The path to the folder where the documents are stored
@@ -43,6 +48,8 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Link", name: "galleryURL", widget: "string"}
       - {label: "Tipo de galería", name: "galleryType", widget: "hidden", default: "video"}
       - {label: "Fecha de publicación", name: "date", widget: "datetime", format: "Y-MM-DDThh:mm:ssZ"}
+
+
   - name: "results"
     label: "Resultados"
     folder: "content/results"
@@ -50,20 +57,41 @@ collections: # A list of collections the CMS should be able to edit
     fields:
       - {label: "Título", name: "title", widget: "string"}
       - {label: "Fecha de publicación", name: "date", widget: "datetime", format: "Y-MM-DDThh:mm:ssZ"}
-      - label: "Resultados"
-        name: "results"
+      - label: "Tablas"
+        name: "tablas"
         widget: "list"
         required: false
         fields:
-          - label: "Resultado"
-            name: resultado
+          - label: "Tabla"
+            name: "tabla"
             widget: object
             fields:
-            - label: "Tipo"
-              name: "tableType"
-              widget: "select"
-              options: ["lista", "columna"]
-              default: "lista"
+            - label: "Título de la tabla"
+              name: "heading"
+              widget: "string"
+            - label: "Columnas"
+              name: "columnas"
+              widget: "list"
+              fields:
+                - label: "Columna"
+                  name: "columna"
+                  widget: "object"
+                  fields:
+                  - {label: "Nombre", name: "heading", widget: "string"}
+                  - label: "Items"
+                    name: "items"
+                    widget: "list"
+                    fields:
+                      - {label: "Item", name: "item", widget: "string"}
+      - label: "Listas"
+        name: "listas"
+        widget: "list"
+        required: false
+        fields:
+          - label: "Lista"
+            name: "lista"
+            widget: object
+            fields:
             - label: "Encabezado"
               name: "heading"
               widget: "string"
