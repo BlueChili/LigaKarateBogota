@@ -5,17 +5,35 @@
     </div>
     <div class='content-wrapper'>
         <main class='results-wrapper'>
-            <section class="noticias">
-            {{ range .Params.results }}
-                <h5>{{ .resultado.heading }}</h5>
-                <div class="table">
-                    {{ range .resultado.items }}
-                    <a href='{{- .item.attachment -}}' class='icon-file-pdf'>{{- .item.name -}}</a>
-                    {{ end }}
+            {{ range .Params.tablas }}
+                <div class="result-card">
+                    <h5>{{ .tabla.heading }}</h5>
+                   <div class="data-container">
+                       {{ range .tabla.columnas }}
+                            <h5>{{- .columna.heading -}}</h5>
+                            {{ range .columna.items }}
+                            <p>{{ .item }}</p>
+                            {{ end }}}
+                       {{ end }}
+                   </div>
                 </div>
             {{ end }}
+            {{ range .Params.listas }}
+                <section class="noticias">
+                    <h5>{{ .lista.heading }}</h5>
+                    <div class="table">
+                        {{ range .lista.items }}
+                            {{ if .item.attachment }}
+                                <a href='{{- .item.attachment -}}' class='icon-file-pdf'>{{- .item.name -}}</a>
+                            {{ else }}
+                                <a>{{- .item.name -}}</a>
+                            {{ end }}
+                        {{ end }}
+                    </div>
+                </section>
+            {{ end }}
+
             {{ .Content }}
-            </section>
         </main>
         {{ partial "navigation" . }}
     </div>
