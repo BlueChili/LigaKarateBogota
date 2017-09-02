@@ -26,7 +26,7 @@
                     <div class="table">
                         {{ range .lista.items }}
                             {{ if .item.attachment }}
-                                <a href='{{- .item.attachment -}}' class='icon-file-pdf'>{{- .item.name -}}</a>
+                                <a class='rs-fileLink' href='{{- .item.attachment -}}' class='icon-file-pdf'>{{- .item.name -}}</a>
                             {{ else }}
                                 <a>{{- .item.name -}}</a>
                             {{ end }}
