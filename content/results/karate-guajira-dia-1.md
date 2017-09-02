@@ -3,7 +3,7 @@ title: Karate Guajira 2015 Día 1
 date: 2015-06-14T15:18:52.000Z
 listas:
   - lista:
-      heading: Resultados del primer día
+      heading: Karate Guajira Día 1
       items:
         - item:
             name: Tabla de Medallería
