@@ -1,25 +1,37 @@
 ---
-extraCSS: /css/results.css
-headline: Resultados Riohacha 2015 - Menores de 21 años
 section: results
 title: Resultados Riohacha 2015 - Menores de 21 años
-date: 2015-06-23T08:13:00-05:00
+date: 2015-06-23T13:13:00.000Z
+listas:
+  - lista:
+      heading: Resultados Riohacha - Menores de 21 años
+      items:
+        - item:
+            name: CADETES Planillas Femeninas
+        - item:
+            name: CADETES Planillas Masculinas
+        - item:
+            name: CADETES Resultados Femeninos
+        - item:
+            name: CADETES Resultados Masculinos
+        - item:
+            name: CADETES Tabla de Medallería
+        - item:
+            name: ESCUELA Resultados Femeninos
+        - item:
+            name: ESCUELA Resultados Masculinos
+        - item:
+            name: ESCUELA FORMACION Planillas Femeninas
+        - item:
+            name: ESCUELA FORMACION Planillas Masculinas
+        - item:
+            name: INFANTIL Planillas Femeninas
+        - item:
+            name: INFANTIL Planillas Masculinas
+        - item:
+            name: INFANTIL Resultados Femeninos
 ---
-<section class="noticias">
-    <h5>Resultados Riohacha 2015 - Menores de 21 años</h5>
-    <div class="table">
-        <a class="icon-file-pdf" href="/files/docs/resultados-finales-guajira-2015/CADETES-Planillas-Feme.pdf">CADETES Planillas Femeninas</a>
-        <a class="icon-file-pdf" href="/files/docs/resultados-finales-guajira-2015/CADETES-Planillas-Masc.pdf">CADETES Planillas Masculinas</a>
-        <a class="icon-file-pdf" href="/files/docs/resultados-finales-guajira-2015/CADETES-Resultados-Feme.pdf">CADETES Resultados Femeninos</a>
-        <a class="icon-file-pdf" href="/files/docs/resultados-finales-guajira-2015/CADETES-Resultados-Masc.pdf">CADETES Resultados Masculinos</a>
-        <a class="icon-file-pdf" href="/files/docs/resultados-finales-guajira-2015/CADETES-Tabla-de-Medalleria.pdf">CADETES Tabla de Medallería</a>
-        <a class="icon-file-pdf" href="/files/docs/resultados-finales-guajira-2015/ESCUELA-DE-FORMACION-Resultados-Feme.pdf">ESCUELA Resultados Femeninos</a>
-        <a class="icon-file-pdf" href="/files/docs/resultados-finales-guajira-2015/ESCUELA-DE-FORMACION-Resultados-Masc.pdf">ESCUELA Resultados Masculinos</a>
-        <a class="icon-file-pdf" href="/files/docs/resultados-finales-guajira-2015/ESCUELA-FORMACION-Planillas-Feme.pdf">ESCUELA FORMACION Planillas Femeninas</a>
-        <a class="icon-file-pdf" href="/files/docs/resultados-finales-guajira-2015/ESCUELA-FORMACION-Planillas-Masc.pdf">ESCUELA FORMACION Planillas Masculinas</a>
-        <a class="icon-file-pdf" href="/files/docs/resultados-finales-guajira-2015/INFANTIL-Planillas-Feme.pdf">INFANTIL Planillas Femeninas</a>
-        <a class="icon-file-pdf" href="/files/docs/resultados-finales-guajira-2015/INFANTIL-Planillas-Masc.pdf">INFANTIL Planillas Masculinas</a>
-        <a class="icon-file-pdf" href="/files/docs/resultados-finales-guajira-2015/INFANTIL-Resultados-Feme.pdf">INFANTIL Resultados Femeninos</a>
+
         <a class="icon-file-pdf" href="/files/docs/resultados-finales-guajira-2015/INFANTIL-Resultados-Masc.pdf">INFANTIL Resultados Masculinos</a>
         <a class="icon-file-pdf" href="/files/docs/resultados-finales-guajira-2015/INFANTIL-Tabla-de-Medalleria.pdf">INFANTIL Tabla de Medallería</a>
         <a class="icon-file-pdf" href="/files/docs/resultados-finales-guajira-2015/JUNIOR-Planillas-Feme.pdf">JUNIOR Planillas Femeninas</a>
@@ -38,6 +50,4 @@ date: 2015-06-23T08:13:00-05:00
         <a class="icon-file-pdf" href="/files/docs/resultados-finales-guajira-2015/SUB21-Tabla-de-Medalleria.pdf">SUB21 Tabla de Medallería</a>
     </div>
 </section>
-
-
 
