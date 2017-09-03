@@ -3,25 +3,10 @@ backend:
   repo: BlueChili/LigaKarateBogota # Path to your Github repository
   branch: cmstest # Branch to update (master by default)
 
-media_folder: "static" # Folder where user uploaded files should go
+media_folder: "static/uploads" # Folder where user uploaded files should go
 public_folder: "/uploads"
 
 collections: # A list of collections the CMS should be able to edit
-
-  - name: "clubesdeportivos"
-    label: "Clubes" # Used in the UI, e.g., "New Post"
-    folder: "content/clubs" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    slug: "club-{{slug}}"
-    fields: # The fields each document in this collection have
-      - {label: "Nombre", name: "nombre", widget: "string"}
-      - {label: "Logo", name: "logo", widget: "image", required: false}
-      - {label: "Dirección", name: "address", widget: "string", default: "-"}
-      - {label: "Teléfono", name: "phone", widget: "string", default: "-"}
-      - {label: "Website", name: "website", widget: "string", required: false}
-      - {label: "Correo electrónico", name: "email", widget: "string", required: false}
-      - {label: "Facebook", name: "facebook", widget: "string", required: false}
-      - {label: "Twitter", name: "twitter", widget: "string", required: false}
 
   - name: "news" # Used in routes, e.g., /admin/collections/:slug/edit
     label: "Noticias" # Used in the UI, e.g., "New Post"
@@ -34,35 +19,6 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Fecha de publicación", name: "date", widget: "datetime", format: "Y-MM-DDThh:mm:ssZ"}
       - {label: "section", name: "section", widget: "hidden", default:"news"}
-
-
-  - name: "facebookAlbums" # Used in routes, e.g., /admin/collections/:slug/edit
-    label: "Facebook albums" # Used in the UI, e.g., "New Post"
-    folder: "content/galerias" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    filter:
-      field: galleryType
-      value: image
-    fields: # The fields each document in this collection have
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Link", name: "galleryURL", widget: "string"}
-      - {label: "Imagen de portada", name: "galleryThumbnail", widget: "image", required: false}
-      - { name: "galleryType", widget: "hidden", default: "image"}
-      - {label: "Fecha de publicación", name: "date", widget: "datetime", format: "Y-MM-DDThh:mm:ssZ"}
-
-
-  - name: "youtube" # Used in routes, e.g., /admin/collections/:slug/edit
-    label: "Youtube" # Used in the UI, e.g., "New Post"
-    folder: "content/galerias" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    filter:
-      field: galleryType
-      value: video
-    fields: # The fields each document in this collection have
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Link", name: "galleryURL", widget: "string"}
-      - {label: "Tipo de galería", name: "galleryType", widget: "hidden", default: "video"}
-      - {label: "Fecha de publicación", name: "date", widget: "datetime", format: "Y-MM-DDThh:mm:ssZ"}
 
 
   - name: "results"
@@ -122,4 +78,66 @@ collections: # A list of collections the CMS should be able to edit
                     - {label: "Nombre", name: "name", widget: "string"}
                     - {label: "Archivo", name: "attachment", widget: "file", required: false}
       - {label: "Cuerpo", name: body, widget: markdown, required: false}
+
+  - name: "selfHosted"
+    label: "Galerías"
+    folder: "content/albums"
+    create: true
+    fields:
+      - {name: "title", label: "Título", widget: "string"}
+      - {name: "date", label: "Fecha de pubicación", widget: "datetime", format: "Y-MM-DDThh:mm:ssZ"}
+      - {name: "galleryType", widget: "hidden", default: "images"}
+      - name: "images"
+        label: "Imágenes"
+        widget: list
+        fields:
+          - name: "image"
+            label: "Imagen"
+            widget: "object"
+            fields:
+              - {name: "file", label: "Archivo", widget: "image"}
+              - {name: "description", label: "Descripción", widget: "string", required: false}
+
+  - name: "clubesdeportivos"
+    label: "Clubes" # Used in the UI, e.g., "New Post"
+    folder: "content/clubs" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "club-{{slug}}"
+    fields: # The fields each document in this collection have
+      - {label: "Nombre", name: "nombre", widget: "string"}
+      - {label: "Logo", name: "logo", widget: "image", required: false}
+      - {label: "Dirección", name: "address", widget: "string", default: "-"}
+      - {label: "Teléfono", name: "phone", widget: "string", default: "-"}
+      - {label: "Website", name: "website", widget: "string", required: false}
+      - {label: "Correo electrónico", name: "email", widget: "string", required: false}
+      - {label: "Facebook", name: "facebook", widget: "string", required: false}
+      - {label: "Twitter", name: "twitter", widget: "string", required: false}
+
+  - name: "facebookAlbums" # Used in routes, e.g., /admin/collections/:slug/edit
+    label: "Facebook albums" # Used in the UI, e.g., "New Post"
+    folder: "content/galerias" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    filter:
+      field: galleryType
+      value: image
+    fields: # The fields each document in this collection have
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Link", name: "galleryURL", widget: "string"}
+      - {label: "Imagen de portada", name: "galleryThumbnail", widget: "image", required: false}
+      - { name: "galleryType", widget: "hidden", default: "image"}
+      - {label: "Fecha de publicación", name: "date", widget: "datetime", format: "Y-MM-DDThh:mm:ssZ"}
+
+
+  - name: "youtube" # Used in routes, e.g., /admin/collections/:slug/edit
+    label: "Youtube" # Used in the UI, e.g., "New Post"
+    folder: "content/galerias" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    filter:
+      field: galleryType
+      value: video
+    fields: # The fields each document in this collection have
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Link", name: "galleryURL", widget: "string"}
+      - {label: "Tipo de galería", name: "galleryType", widget: "hidden", default: "video"}
+      - {label: "Fecha de publicación", name: "date", widget: "datetime", format: "Y-MM-DDThh:mm:ssZ"}
 
