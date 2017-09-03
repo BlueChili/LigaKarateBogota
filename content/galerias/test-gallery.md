@@ -1,7 +1,7 @@
 ---
 title: Test Gallery
 date: 2017-09-03T02:19:52-05:00
-galleryType: images
+galleryType: "selfHosted"
 images:
   - image:
       description: Baguette
