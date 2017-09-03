@@ -8,6 +8,21 @@ public_folder: "/uploads"
 
 collections: # A list of collections the CMS should be able to edit
 
+  - name: "clubesdeportivos"
+    label: "Clubes" # Used in the UI, e.g., "New Post"
+    folder: "content/clubs" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "club-{{slug}}"
+    fields: # The fields each document in this collection have
+      - {label: "Nombre", name: "nombre", widget: "string"}
+      - {label: "Logo", name: "logo", widget: "image", required: false}
+      - {label: "Dirección", name: "address", widget: "string", default: "-"}
+      - {label: "Teléfono", name: "phone", widget: "string", default: "-"}
+      - {label: "Website", name: "website", widget: "string", required: false}
+      - {label: "Correo electrónico", name: "email", widget: "string", required: false}
+      - {label: "Facebook", name: "facebook", widget: "string", required: false}
+      - {label: "Twitter", name: "twitter", widget: "string", required: false}
+
   - name: "news" # Used in routes, e.g., /admin/collections/:slug/edit
     label: "Noticias" # Used in the UI, e.g., "New Post"
     folder: "content/news" # The path to the folder where the documents are stored
@@ -107,13 +122,4 @@ collections: # A list of collections the CMS should be able to edit
                     - {label: "Nombre", name: "name", widget: "string"}
                     - {label: "Archivo", name: "attachment", widget: "file", required: false}
       - {label: "Cuerpo", name: body, widget: markdown, required: false}
-  - name: "clubesdeportivos"
-    label: "Clubes" # Used in the UI, e.g., "New Post"
-    folder: "content/clubs" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    fields: # The fields each document in this collection have
-      - {label: "Nombre", name: "nombre", widget: "string"}
-      - {label: "Logo", name: "logo", widget: "image", required: false}
-      - {label: "Dirección", name: "address", widget: "string", default: "-"}
-      - {label: "Teléfono", name: "phone", widget: "string", default: "-"}
 
