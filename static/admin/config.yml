@@ -87,6 +87,7 @@ collections: # A list of collections the CMS should be able to edit
       - {name: "title", label: "Título", widget: "string"}
       - {name: "date", label: "Fecha de pubicación", widget: "datetime", format: "Y-MM-DDThh:mm:ssZ"}
       - {name: "galleryType", widget: "hidden", default: "images"}
+      - {name: "section", widget: "hidden", default: "galerias"}
       - name: "images"
         label: "Imágenes"
         widget: list
