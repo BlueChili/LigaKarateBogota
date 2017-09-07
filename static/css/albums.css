@@ -503,6 +503,8 @@ button.content-switch::before {
 	display: block;
 }
 
+.pages .content p a { display: inline-block; }
+
 .pages .content a:hover {
 	color: #545b61;
 }
