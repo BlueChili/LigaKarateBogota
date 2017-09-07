@@ -1,6 +1,6 @@
 ---
 title: Test Gallery
-date: 2017-09-03T07:19:52.000Z
+date: 2017-09-03T07:21:52-05:00
 section: galerias
 images:
   - image:
@@ -24,3 +24,5 @@ Some regular text, **that might be in bold** or *italics* also here’s a [link 
 last text
 
 **lone**
+
+some more text that will have just the [link](https://slashdot.org) and then i will check it goes after that
