@@ -98,6 +98,7 @@ collections: # A list of collections the CMS should be able to edit
             fields:
               - {name: "file", label: "Archivo", widget: "image"}
               - {name: "description", label: "Descripción", widget: "string", required: false}
+      - {name: "body", widget: "markdown"}
 
   - name: "clubesdeportivos"
     label: "Clubes" # Used in the UI, e.g., "New Post"

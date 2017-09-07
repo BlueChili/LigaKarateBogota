@@ -17,4 +17,10 @@ images:
 
 ## h2 test
 
-Some regular text, **that might be in bold** or *italics* also here’s a [link to slashdot](https://slashdot.org). Unlinked text.
+### h3 test
+
+Some regular text, **that might be in bold** or *italics* also here’s a [link to slashdot](https://slashdot.org)
+
+last text
+
+**lone**
