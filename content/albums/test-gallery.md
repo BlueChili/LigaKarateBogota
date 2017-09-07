@@ -1,6 +1,6 @@
 ---
 title: Test Gallery
-date: 2017-09-03T02:19:52-05:00
+date: 2017-09-03T07:19:52.000Z
 section: galerias
 images:
   - image:
@@ -13,4 +13,8 @@ images:
       description: 'hi :D'
       file: /uploads/7410db097bd5171be38b79147bf14e07e7902ae9.jpeg
 ---
+# Probando h1
 
+## h2 test
+
+Some regular text, **that might be in bold** or *italics* also here’s a [link to slashdot](https://slashdot.org). Unlinked text.
