@@ -118,6 +118,7 @@ collections: # A list of collections the CMS should be able to edit
   - name: "facebookAlbums" # Used in routes, e.g., /admin/collections/:slug/edit
     label: "Facebook albums" # Used in the UI, e.g., "New Post"
     folder: "content/galerias" # The path to the folder where the documents are stored
+    slug: "{{slug}}"
     create: true # Allow users to create new documents in this collection
     filter:
       field: galleryType
