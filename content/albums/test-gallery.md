@@ -12,6 +12,7 @@ images:
   - image:
       description: 'hi :D'
       file: /uploads/7410db097bd5171be38b79147bf14e07e7902ae9.jpeg
+galleryType: "images"
 ---
 # Probando h1
 

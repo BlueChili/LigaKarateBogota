@@ -123,6 +123,7 @@ collections: # A list of collections the CMS should be able to edit
       field: galleryType
       value: image
     fields: # The fields each document in this collection have
+      - {name: "section", widget: "hidden", default: "galerias"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Link", name: "galleryURL", widget: "string"}
       - {label: "Imagen de portada", name: "galleryThumbnail", widget: "image", required: false}
@@ -138,6 +139,7 @@ collections: # A list of collections the CMS should be able to edit
       field: galleryType
       value: video
     fields: # The fields each document in this collection have
+      - {name: "section", widget: "hidden", default: "galerias"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Link", name: "galleryURL", widget: "string"}
       - {label: "Tipo de galería", name: "galleryType", widget: "hidden", default: "video"}

@@ -6,11 +6,18 @@
     <div class='content-container'>
         {{ partial "navigation" . }}
         <div class='card-container'>
-            {{ range (sort (where .Site.RegularPages "Section" "galerias") .Params.Date)}}
+            {{ range (sort (where .Site.RegularPages "Params.section" "galerias") .Params.Date)}}
                 {{ if eq .Params.galleryType "image"}}
                 <div class="gallery-card-image">
                     <a href="{{ .Params.galleryURL }}" target="_blank">
                         <img src="{{ .Params.galleryThumbnail }}" alt="Imagen {{ .Title }}">
+                        <h4>{{ .Title }}</h4>
+                    </a>
+                </div>
+                {{ else if (eq .Params.galleryType "images")}}
+                <div class="gallery-card-image">
+                    <a href="{{ .URL }}" target="_blank">
+                        <img src="{{ (index .Params.images 0).image.file }}" alt="Imagen {{ .Title }}" style="width: 100%; height: auto">
                         <h4>{{ .Title }}</h4>
                     </a>
                 </div>
