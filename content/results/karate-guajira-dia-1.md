@@ -1,4 +1,5 @@
 ---
+section: results
 title: Karate Guajira 2015 Día 1
 date: 2015-06-14T15:18:52.000Z
 listas:

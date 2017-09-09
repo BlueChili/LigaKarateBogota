@@ -145,4 +145,3 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Link", name: "galleryURL", widget: "string"}
       - {label: "Tipo de galería", name: "galleryType", widget: "hidden", default: "video"}
       - {label: "Fecha de publicación", name: "date", widget: "datetime", format: "Y-MM-DDThh:mm:ssZ"}
-
