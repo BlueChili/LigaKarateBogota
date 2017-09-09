@@ -1,10 +1,43 @@
 {{ define "main" }}
   <div class='master-container'>
+    <div class="headline">
+        <h1>{{ .Title }}</h1>
+    </div>
     <div class='content-wrapper'>
-        <div class='results-wrapper'>
+        <main class='results-wrapper'>
+            {{ range .Params.tablas }}
+                <div class="result-card">
+                    <h5>{{ .tabla.heading }}</h5>
+                   <div class="data-container">
+                       {{ range .tabla.columnas }}
+                            <div class="cell">
+                            <h6>{{- .columna.heading -}}</h6>
+                                {{ range .columna.items }}
+                                    <p>{{ .item }}</p>
+                                {{ end }}
+                            </div>
+                       {{ end }}
+                   </div>
+                </div>
+            {{ end }}
+            {{ range .Params.listas }}
+                <section class="noticias">
+                    <h5>{{ .lista.heading }}</h5>
+                    <div class="table">
+                        {{ range .lista.items }}
+                            {{ if .item.attachment }}
+                                <a class='rs-fileLink' href='{{- .item.attachment -}}' class='icon-file-pdf'>{{- .item.name -}}</a>
+                            {{ else }}
+                                <a>{{- .item.name -}}</a>
+                            {{ end }}
+                        {{ end }}
+                    </div>
+                </section>
+            {{ end }}
+
             {{ .Content }}
-        </div>
-    {{ partial "navigation" . }}
+        </main>
+        {{ partial "navigation" . }}
     </div>
   </div>
 {{ end }}

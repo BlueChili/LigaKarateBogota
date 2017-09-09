@@ -1,0 +1,32 @@
+{{ define "main" }}
+<div class="article-container">
+    {{ partial "navigation" . }}
+    <article>
+        <h1>{{ .Title }}</h1>
+        <div class="club-card-container">
+            {{ range where .Site.RegularPages "Section" "clubs" }}
+                <aside class="club-card">
+                    <img src="{{ .Params.logo }}" class="club-logo">
+                    <h3>{{ .Params.nombre }}</h3>
+                    <p class="label">Dirección</p><p>{{ .Params.address }}</p>
+                    <p class="label">Teléfono</p><p>{{ .Params.phone }}</p>
+                    <div class="card-icons">
+                        {{if .Params.website }}
+                        <a class="icon-home" href="{{ .Params.website }}"></a>
+                        {{ end }}
+                        {{if .Params.email }}
+                        <a class="icon-mail" href="mailto:{{ .Params.email }}"></a>
+                        {{ end }}
+                        {{if .Params.facebook }}
+                        <a class="icon-facebook" href="{{ .Params.facebook }}"></a>
+                        {{ end }}
+                        {{if .Params.twitter }}
+                        <a class="icon-twitter" href="{{ .Params.twitter }}"></a>
+                        {{ end }}
+                    </div>
+                </aside>
+            {{ end }}
+        </div>
+    </article>
+</div>
+{{ end }}

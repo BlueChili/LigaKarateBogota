@@ -1,21 +1,26 @@
 ---
-extraCSS: /css/results.css
-headline: Karate Guajira 2015 Día 1
 section: results
 title: Karate Guajira 2015 Día 1
+date: 2015-06-14T15:18:52.000Z
+listas:
+  - lista:
+      heading: Karate Guajira Día 1
+      items:
+        - item:
+            name: Tabla de Medallería
+            attachment: /uploads/Tabla-de-Medalleria.pdf
+        - item:
+            name: Senior Planillas Masculino
+            attachment: /files/docs/SENIOR-Planillas-Masc.pdf
+        - item:
+            name: Senior Planillas Femenino
+            attachment: /files/docs/SENIOR-Planillas-Feme.pdf
+        - item:
+            name: Senior Resultados Masculino
+            attachment: /files/docs/SENIOR-Resultados-Masc.pdf
+        - item:
+            name: Senior Resultados Femenino
+            attachment: /files/docs/SENIOR-Resultados-Feme.pdf
 ---
-<section class="noticias">
-    <h5>Karate Guajira 2015 Día 1</h5>
-        <a class="icon-file-pdf" href="/files/docs/SENIOR-Tabla-de-Medalleria.pdf">Tabla de Medallería</a>
-        <a class="icon-file-pdf" href="/files/docs/SENIOR-Planillas-Masc.pdf">Senior Planillas Masculino</a>
-        <a class="icon-file-pdf" href="/files/docs/SENIOR-Planillas-Feme.pdf">Senior Planillas Femenino</a>
-        <a class="icon-file-pdf" href="/files/docs/SENIOR-Resultados-Masc.pdf">Senior Resultados Masculino</a>
-        <a class="icon-file-pdf" href="/files/docs/SENIOR-Resultados-Feme.pdf">Senior Resultados Femenino</a>
-</section>
-
-
-
-
-
 
 

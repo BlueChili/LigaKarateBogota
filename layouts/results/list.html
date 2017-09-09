@@ -6,7 +6,38 @@
     <div class='content-wrapper'>
         <div class='results-wrapper'>
             {{ range where .Site.RegularPages "Section" "results" }}
-                {{ .Content }}
+                {{ $URL := .URL }}
+            {{ range .Params.tablas }}
+                <div class="result-card">
+                    <a class='rs-headingLink' href="{{ $URL }}"><h5>{{ .tabla.heading }}</h5></a>
+                   <div class="data-container">
+                       {{ range .tabla.columnas }}
+                            <div class="cell">
+                            <h6>{{- .columna.heading -}}</h6>
+                                {{ range .columna.items }}
+                                    <p>{{ .item }}</p>
+                                {{ end }}
+                            </div>
+                       {{ end }}
+                   </div>
+                </div>
+            {{ end }}
+            {{ range .Params.listas }}
+                <section class="noticias">
+                    <a class='rs-headingLink' href="{{ $URL }}"><h5>{{ .lista.heading }}</h5></a>
+                    <div class="table">
+                        {{ range .lista.items }}
+                            {{ if .item.attachment }}
+                                <a class='rs-fileLink' href='{{- .item.attachment -}}' class='icon-file-pdf'>{{- .item.name -}}</a>
+                            {{ else }}
+                                <a>{{- .item.name -}}</a>
+                            {{ end }}
+                        {{ end }}
+                    </div>
+                </section>
+            {{ end }}
+
+            {{ .Content }}
             {{ end }}
         </div>
     {{ partial "navigation" . }}

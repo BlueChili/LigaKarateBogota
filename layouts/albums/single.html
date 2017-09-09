@@ -1,0 +1,113 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="{{ .Description }}">
+        <meta name="keywords" content="Liga de Karate de Bogota,Karate Bogota,Karate,Karate Do,karate do,Liga,Oficial,Bogotá,Bogota,IDRD">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:300,400|Raleway:300,400" rel="stylesheet" type="text/css">
+        <title>{{ .Title }}</title>
+        {{ .Hugo.Generator }}
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+          ga('create', 'UA-92157212-1', 'auto');
+          ga('send', 'pageview');
+        </script>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+        <link rel="stylesheet" type="text/css" href="/css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="/css/albums.css" />
+  		<script src="/js/modernizr.custom.js"></script>
+    </head>
+    <body>
+		<div class="container">
+			<header id="header" class="slider-container">
+				<button class="slider-switch">Switch view</button>
+			</header>
+			<div id="slideshow" class="dragslider">
+				<section class="img-dragger img-dragger-large dragdealer">
+					<div class="handle">
+                        {{ range .Params.images }}
+						<div class="slide" data-content="content-1">
+                            <div class="img-wrap"><img src="{{ .image.file }}" alt="{{- .image.desccription -}}"/></div>
+                            {{ if .image.description }}
+                            <h2>{{ .image.description }}</h2>
+                            {{ end }}
+							<button class="content-switch">Navegación</button>
+						</div>
+                        {{ end }}
+					</div>
+				</section>
+                <!-- /img-dragger-->
+
+				<!-- Content section -->
+				<section class="pages">
+					<div class="content" data-content="content-1">
+                        <nav class="pg-nav">
+                            <div class="pg-navSection1">
+                                <a class="pg-link" href="/news">Noticias</a>
+                                <a class="pg-link" href="/about">La Liga</a>
+                                <a class="pg-link" href="/history">Historia</a>
+                                <a class="pg-link" href="/galerias">Galerías</a>
+                            </div>
+                            <a class="pg-navLogo" href="/"><img src="/img/logo.png"></a>
+                            <div class="pg-navSection2">
+                                <a class="pg-link" href="/results">Resultados</a>
+                                <a class="pg-link" href="/contact">Contacto</a>
+                                <a class="pg-link" href="/clubs">Clubes</a>
+                                <a class="pg-link" href="/matriculas">Matrículas</a>
+                            </div>
+                            <!-- <a class="pg&#45;link" href="//www.facebook.com/ligakaratebogota?fref=ts">F</a> -->
+                        </nav>
+                        {{ .Content }}
+					</div>
+				</section>
+			</div>
+		</div><!-- /container --> 
+		<script src="/js/dragdealer.js"></script>
+		<script src="/js/classie.js"></script>
+		<script src="/js/dragslideshow.js"></script>
+		<script>
+			(function() {
+
+				var header = document.getElementById( 'header' )
+					switchBtnn = header.querySelector( 'button.slider-switch' ),
+					toggleBtnn = function() {
+						if( slideshow.isFullscreen ) {
+							switchBtnn.classList.add('view-maxi' );
+						}
+						else {
+							switchBtnn.classList.remove( 'view-maxi' );
+						}
+					},
+					toggleCtrls = function() {
+						if( !slideshow.isContent ) {
+							header.classList.add( 'hide' );
+						}
+					},
+					toggleCompleteCtrls = function() {
+						if( !slideshow.isContent ) {
+							header.classList.remove( 'hide' );
+						}
+					},
+					slideshow = new DragSlideshow( document.getElementById( 'slideshow' ), { 
+						// toggle between fullscreen and minimized slideshow
+						onToggle : toggleBtnn,
+						// toggle the main image and the content view
+						onToggleContent : toggleCtrls,
+						// toggle the main image and the content view (triggered after the animation ends)
+						onToggleContentComplete : toggleCompleteCtrls
+					}),
+					toggleSlideshow = function() {
+						slideshow.toggle();
+						toggleBtnn();
+					},
+
+				// toggle between fullscreen and small slideshow
+				switchBtnn.addEventListener( 'click', toggleSlideshow );
+
+			}());
+		</script>
+    <body>
+</html>
