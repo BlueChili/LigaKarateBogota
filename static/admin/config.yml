@@ -83,6 +83,7 @@ collections: # A list of collections the CMS should be able to edit
     label: "Galerías"
     folder: "content/albums"
     create: true
+    slug: "{{year}}-{{slug}}"
     fields:
       - {name: "title", label: "Título", widget: "string"}
       - {name: "date", label: "Fecha de pubicación", widget: "datetime", format: "Y-MM-DDThh:mm:ssZ"}
@@ -98,7 +99,7 @@ collections: # A list of collections the CMS should be able to edit
             fields:
               - {name: "file", label: "Archivo", widget: "image"}
               - {name: "description", label: "Descripción", widget: "string", required: false}
-      - {name: "body", widget: "markdown"}
+      - {name: "body", widget: "markdown", required: false}
 
   - name: "clubesdeportivos"
     label: "Clubes" # Used in the UI, e.g., "New Post"
@@ -118,7 +119,6 @@ collections: # A list of collections the CMS should be able to edit
   - name: "facebookAlbums" # Used in routes, e.g., /admin/collections/:slug/edit
     label: "Facebook albums" # Used in the UI, e.g., "New Post"
     folder: "content/galerias" # The path to the folder where the documents are stored
-    slug: "{{slug}}"
     create: true # Allow users to create new documents in this collection
     filter:
       field: galleryType
