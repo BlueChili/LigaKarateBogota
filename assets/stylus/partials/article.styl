@@ -45,3 +45,24 @@
       margin-bottom 0.3em
   strong
     font-size inherit
+
+.at-attachment
+  width 100%
+  font-size 1.3em
+  line-height 1.4
+  text-decoration none
+  display block
+  background #ddd
+  padding 4px 0 4px 24px
+  box-sizing border-box
+  border 1px solid #ddd
+  transition border 0.5s
+  transition background 0.4s
+  position relative
+  &:hover
+    background #fff
+    border 1px solid #888
+  &:before
+    content: '↓'
+    // position: absolute
+    padding-right 5px

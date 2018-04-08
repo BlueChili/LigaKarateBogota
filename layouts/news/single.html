@@ -14,6 +14,11 @@
                         <img src="{{ .Params.coverImage}}" alt="Imagen principal"> 
                     {{end }}
                         {{ .Content}}
+                    {{if .Params.files }}
+                    {{ range .Params.files }}
+                        <a class="at-attachment" href="{{- .file.url -}}">{{ .file.title }}</a>
+                    {{ end }}
+                    {{ end }}
                     </main>
                 </div>
             </div>
