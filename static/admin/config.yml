@@ -16,6 +16,16 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Título", name: "title", widget: "string"}
       - {label: "Descripción corta", name: "description", widget: "string"}
       - {label: "Imagen de portada", name: "coverImage", widget: "image"}
+      - name: "files"
+        label: "Archivos"
+        widget: list
+        fields:
+          - name: "file"
+            label: "Archivo"
+            widget: "object"
+            fields:
+              - {name: "file", label: "Archivo", widget: "file"}
+              - {name: "description", label: "Descripción", widget: "string", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Fecha de publicación", name: "date", widget: "datetime", format: "Y-MM-DDThh:mm:ssZ"}
       - {label: "section", name: "section", widget: "hidden", default:"news"}
