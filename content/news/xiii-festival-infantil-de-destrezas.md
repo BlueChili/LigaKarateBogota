@@ -4,6 +4,7 @@ description: Abril 29 de 2018 – Dojo de la Unidad Deportiva El Salitre
 coverImage: /uploads/xiii-festival-infantil.png
 files:
   - file:
+      title: Festival Infantil 2018
       url: /uploads/festival-infantil-2018.pdf
 date: '2018-04-12T02:28:14-05:00'
 ---
