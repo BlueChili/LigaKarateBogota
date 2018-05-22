@@ -10,4 +10,4 @@ listas:
             attachment: >-
               /uploads/resultados-y-cuadro-de-honor-festival-infantil-campenato-distrital-mayo12.pdf
 ---
-
+Mayo 12 de 2018 - Liga de Karate Do de Bogotá
