@@ -5,6 +5,8 @@ coverImage: /uploads/distrital_septiembre_2018-copia.jpg
 files:
   - file:
       url: /uploads/convocatoria_distrital_septiembre-16-2018.pdf
+  - file:
+      url: /uploads/formato-inscripcion-camp_dist-sept-16-club.xlsx
 date: '2018-09-03T12:00:00-05:00'
 section: news
 ---
