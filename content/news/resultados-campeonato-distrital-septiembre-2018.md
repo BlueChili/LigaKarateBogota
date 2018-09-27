@@ -6,7 +6,7 @@ files:
   - file:
       url: /uploads/cuador-de-honor-medallero-09-2018.pdf
   - file:
-      url: /uploads/Tabla-de-Medalleria.pdf
+      url: /uploads/resultados-del-campeonato-distrital-09-2018-2-.pdf
 date: '2018-09-27T04:04:38-05:00'
 ---
 Encuentra los resultados del Campeonato Distrital celebrado en la liga de karate de Bogotá, con ranking valido para nacionales.
