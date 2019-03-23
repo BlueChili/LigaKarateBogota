@@ -11,6 +11,7 @@ files:
       title: Información Actualizada 2019
       url: /uploads/informacion-actualizada-dian-lkb-2019.pdf
   - file:
+      title: Información 2018
       url: /uploads/informacion-de-permanencia-dian-lkb.pdf
 date: '2018-04-26T08:14:53-05:00'
 ---
