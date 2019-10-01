@@ -6,6 +6,7 @@ description: >-
 coverImage: /uploads/festival-infantil-2019.jpg
 files:
   - file:
+      title: Convocatoria XXXIV Festival Infantil
       url: /uploads/convocatoria-festival-infantil-octubre-2019.pdf
 date: '2019-10-01T02:21:59-05:00'
 ---
