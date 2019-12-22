@@ -116,6 +116,7 @@ collections: # A list of collections the CMS should be able to edit
     folder: "content/clubs" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "club-{{slug}}"
+    identifier_field: "nombre"
     fields: # The fields each document in this collection have
       - {label: "Nombre", name: "nombre", widget: "string"}
       - {label: "Logo", name: "logo", widget: "image", required: false}
