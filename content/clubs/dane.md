@@ -1,5 +1,5 @@
 ---
-nombre: Dane
+title: Dane
 logo: /img/clubs/logo_dane.gif
 address: "Unidad Deportiva El Salitre - LKB"
 phone: 312 582 3889

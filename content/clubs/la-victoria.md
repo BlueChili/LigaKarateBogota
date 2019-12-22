@@ -1,5 +1,5 @@
 ---
-nombre: La Victoria
+title: La Victoria
 logo: /img/clubs/logo_la_victoria.jpg
 address: "Carrera 1c # 41 - 74 Sur"
 phone: 311 269 8598

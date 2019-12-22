@@ -1,5 +1,5 @@
 ---
-nombre: Acueducto
+title: Acueducto
 logo: /img/clubs/logo_acueducto.jpg
 address: 'Av. Calle 63, Av. 68, LKB'
 phone: (+57) 315 843 1956

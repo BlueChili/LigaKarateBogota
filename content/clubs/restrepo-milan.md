@@ -1,5 +1,5 @@
 ---
-nombre: Restrepo Milan
+title: Restrepo Milan
 logo: /img/clubs/logo_restrepo_millan.jpg
 address: "Carrera 49A # 170 - 45"
 phone: 672 87 90

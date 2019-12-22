@@ -1,5 +1,5 @@
 ---
-nombre: Samurai
+title: Samurai
 logo: /img/clubs/logo_samurai.jpg
 address: "Av. 68 con calle 63, Unidad Deportiva el Salitre"
 phone: 300 552 6662

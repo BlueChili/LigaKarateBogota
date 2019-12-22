@@ -1,5 +1,5 @@
 ---
-nombre: Chrysler
+title: Chrysler
 logo: /img/clubs/logo_chrysler.jpg
 address: "UDS. Unidad Deportiva el Salitre"
 phone: 310 248 3028

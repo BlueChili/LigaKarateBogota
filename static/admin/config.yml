@@ -113,12 +113,12 @@ collections: # A list of collections the CMS should be able to edit
 
   - name: "clubesdeportivos"
     label: "Clubes" # Used in the UI, e.g., "New Post"
+    label_singular: "Club"
     folder: "content/clubs" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "club-{{slug}}"
-    identifier_field: "nombre"
     fields: # The fields each document in this collection have
-      - {label: "Nombre", name: "nombre", widget: "string"}
+      - {label: "Nombre", name: "title", widget: "string"}
       - {label: "Logo", name: "logo", widget: "image", required: false}
       - {label: "Dirección", name: "address", widget: "string", default: "-"}
       - {label: "Teléfono", name: "phone", widget: "string", default: "-"}
