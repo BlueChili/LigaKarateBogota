@@ -16,7 +16,10 @@ files:
   - file:
       title: INFORMACION ACTUALIZADA DIAN 2020
       url: /uploads/informacion-actualizada-dian-2020.pdf
-date: '2018-04-26T08:14:53-05:00'
+  - file:
+      title: INFORMACION ACTUALIZADA DIAN 2021
+      url: /uploads/informacion-actualizada-2021-dian-lkb.pdf
+date: '2021-03-30T11:11:00-05:00'
 ---
 1. Información Actualizada 2019 
 2. Estatutos de LKB
