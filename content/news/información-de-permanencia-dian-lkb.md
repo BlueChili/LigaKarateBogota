@@ -8,7 +8,7 @@ description: >-
 coverImage: /uploads/informacion-legal-dian.png
 files:
   - file:
-      title: Información Actualizada 2019 *
+      title: 'Información Actualizada 2019 '
       url: /uploads/informacion-actualizada-dian-lkb-2019_fin.pdf
   - file:
       title: Información 2018
