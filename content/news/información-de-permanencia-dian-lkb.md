@@ -8,8 +8,11 @@ description: >-
 coverImage: /uploads/informacion-legal-dian.png
 files:
   - file:
-      title: Información Actualizada 2019
+      title: Información Actualizada 2019 *
       url: /uploads/informacion-actualizada-dian-lkb-2019_fin.pdf
+  - file:
+      title: Información 2018
+      url: /uploads/informacion-de-permanencia-dian-lkb.pdf
   - file:
       title: INFORMACION ACTUALIZADA DIAN 2020
       url: /uploads/informacion-actualizada-dian-2020.pdf
@@ -18,13 +21,13 @@ files:
       url: /uploads/informacion-actualizada-2021-dian-lkb.pdf
   - file:
       title: INFORMACION ACTUALIZADA 2022
-      url: /uploads/informacion-legal-liga-karate-bogota-2022.pdf
-date: '2022-03-30T12:00:00-05:00'
+      url: /uploads/información-legal-liga-karate-bogota-2021.pdf
+date: '2021-03-30T11:11:00-05:00'
 ---
-1. Información Actualizada 2022 
+1. Información Actualizada 2019 
 2. Estatutos de LKB
 3. Reconocimiento Deportivo de LKB
 4. Certificado de Representación Legal
-5. Acta de Asamblea Ordinaria año 2022
-6. Estados Financieros de LKB año 2021
-7. Acta de nombramientos año 2022 - Radicación Alcaldía
+5. Acta de Asamblea Ordinaria año 2018
+6. Estados Financieros de LKB año 2017
+7. Acta de nombramientos año 2018 - Radicación Alcaldía
