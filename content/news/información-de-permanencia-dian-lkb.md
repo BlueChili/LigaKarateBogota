@@ -25,7 +25,7 @@ files:
   - file:
       title: INFORMACION ACTUALIZADA 2022
       url: /uploads/informacion-legal-liga-karate-bogota-2022.pdf
-date: '2021-03-30T11:11:00-05:00'
+date: '2022-03-30T12:00:00-05:00'
 ---
 1. Información Actualizada 2022 
 2. Estatutos de LKB
