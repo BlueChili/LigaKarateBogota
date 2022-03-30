@@ -21,9 +21,6 @@ files:
       url: /uploads/informacion-actualizada-2021-dian-lkb.pdf
   - file:
       title: INFORMACION ACTUALIZADA 2022
-      url: /uploads/información-legal-liga-karate-bogota-2021.pdf
-  - file:
-      title: INFORMACION ACTUALIZADA 2022
       url: /uploads/informacion-legal-liga-karate-bogota-2022.pdf
 date: '2022-03-30T12:00:00-05:00'
 ---
