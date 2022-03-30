@@ -22,6 +22,9 @@ files:
   - file:
       title: INFORMACION ACTUALIZADA 2022
       url: /uploads/información-legal-liga-karate-bogota-2021.pdf
+  - file:
+      title: INFORMACION ACTUALIZADA 2022
+      url: /uploads/informacion-legal-liga-karate-bogota-2022.pdf
 date: '2021-03-30T11:11:00-05:00'
 ---
 1. Información Actualizada 2019 
