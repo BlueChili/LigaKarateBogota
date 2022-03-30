@@ -27,10 +27,10 @@ files:
       url: /uploads/informacion-legal-liga-karate-bogota-2022.pdf
 date: '2021-03-30T11:11:00-05:00'
 ---
-1. Información Actualizada 2019 
+1. Información Actualizada 2022 
 2. Estatutos de LKB
 3. Reconocimiento Deportivo de LKB
 4. Certificado de Representación Legal
-5. Acta de Asamblea Ordinaria año 2018
-6. Estados Financieros de LKB año 2017
-7. Acta de nombramientos año 2018 - Radicación Alcaldía
+5. Acta de Asamblea Ordinaria año 2022
+6. Estados Financieros de LKB año 2021
+7. Acta de nombramientos año 2022 - Radicación Alcaldía
