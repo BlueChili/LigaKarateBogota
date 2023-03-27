@@ -12,8 +12,8 @@
                     <main>
                     {{range where .Site.RegularPages "Section" "news"}}
                         <article class="nw-article">
-                            <a class="nw-article--headLink" href="{{ .URL }}"><h1 class="nw-article--headLine">{{ .Title }}</h1></a>
-                            <a class="nw-article--headLink" href="{{ .URL }}"><img class="nw-article--coverImage" src="{{ .Params.coverImage }}" alt="Imagen de portada para el artículo: {{ .Title }}"></a>
+                            <a class="nw-article--headLink" href="{{ .Permalink }}"><h1 class="nw-article--headLine">{{ .Title }}</h1></a>
+                            <a class="nw-article--headLink" href="{{ .Permalink }}"><img class="nw-article--coverImage" src="{{ .Params.coverImage }}" alt="Imagen de portada para el artículo: {{ .Title }}"></a>
                         </article>
                     {{end}}
                     {{if .Params.coverImage }}

@@ -8,7 +8,7 @@
             <img class="cs-logo" src="/img/logo.png" alt="Logo de la Liga d eKarate de Bogotá">
             <div class='cs-itemWrapper'>
             {{range first 3 ( where .Site.RegularPages "Section" "news") }}
-                <a class="cs-item" href="{{ .URL }}">
+                <a class="cs-item" href="{{ .Permalink }}">
                     <span class="cs-item__imgWrapper">
                         <img class="cs-item__img" src="{{ .Params.coverImage }}" alt="">
                     </span>
@@ -59,10 +59,10 @@
         </nav>
         {{ range first 10 (where .Site.RegularPages "Section" "news") }}
         <div class="as">
-            <a class="as-headLink" href="{{ .URL }}">
+            <a class="as-headLink" href="{{ .Permalink }}">
                 <h1 class="as-headLine">{{ .Title }}</h1>
             </a>
-            <a class="as-headLink" href="{{ .URL }}">
+            <a class="as-headLink" href="{{ .Permalink }}">
                 <img class="as-coverImage" src="{{ .Params.coverImage }}" alt="">
             </a>
             {{ .Content }}

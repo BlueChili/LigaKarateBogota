@@ -6,7 +6,7 @@
     <div class='content-wrapper'>
         <div class='results-wrapper'>
             {{ range where .Site.RegularPages "Section" "results" }}
-                {{ $URL := .URL }}
+                {{ $URL := .Permalink }}
             {{ range .Params.tablas }}
                 <div class="result-card">
                     <a class='rs-headingLink' href="{{ $URL }}"><h5>{{ .tabla.heading }}</h5></a>
